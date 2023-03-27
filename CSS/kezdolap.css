@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(34, 34, 34);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.gombok{
+    
+    float: auto;
+    box-shadow: 0 10px 15px rgba(136, 134, 134, 0.1);
+    transition: all 1s;
+    border-radius: 70px;
+    padding: auto;
+    text-align: left;
+}
+
+.gombok a {
+    font-size: 0.5cm;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 0.5cm;
+    transition: all 0.5s;
+    padding-left: 0.2cm;
+    padding: auto;
+}
+
+.gombok a:hover{
+    font-size: 0.4cm;
+    color: rgb(58, 165, 31);
+    transition: all 0.3s;
+    padding: auto;
+}
+
+.fejlesztesalatt {
+    color: red;
+    font-size: 0.6cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: auto;
+    text-align: left;
+}
+.ujdonsagok{
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgb(82, 82, 82);
+    margin: auto;
+    margin-top: 1cm;
+    float: auto;
+    text-align: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.ujdonsagok h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(238, 197, 12);
+    float: auto;
+    padding: auto;
+}
+
+.ujdonsagok h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(202, 202, 202);
+    float: auto;
+    padding: auto;
+
+}
+
+.ujdonsagok h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(82, 180, 62, 0.849);
+    border-radius: 6px;
+    float: auto;
+    padding: auto;
+}
+
+.leiras {
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgb(82, 82, 82);
+    margin: auto;
+    margin-top: 1cm;
+    float: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.leiras h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 6px;
+    float: auto;
+    padding: auto;
+}
+
+.leiras h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(238, 185, 12);
+    border-radius: 6px;
+    float: auto;
+    padding: auto;
+}
+
