@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(34, 34, 34);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ujdonsagok {
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgb(82, 82, 82);
+    margin: auto;
+    margin-top: 1cm;
+    float: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.ujdonsagok h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(55, 92, 216);
+    border-radius: 6px;
+    float: auto;
+    padding: auto;
+}
+
+.ujdonsagok h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(161, 161, 161);
+    border-radius: 6px;
+    float: auto;
+    padding: auto;
+}
