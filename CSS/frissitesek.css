@@ -1,14 +1,8 @@
-body{
-    background-color: rgb(34, 34, 34);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+
 
 .ujdonsagok {
     border-radius: 20px;
-    box-shadow: 0 10px 15px rgb(82, 82, 82);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     margin: auto;
     margin-top: 1cm;
     float: auto;
@@ -26,7 +20,7 @@ body{
 
 .ujdonsagok h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(161, 161, 161);
+    color: rgb(255, 255, 255);
     border-radius: 6px;
     float: auto;
     padding: auto;

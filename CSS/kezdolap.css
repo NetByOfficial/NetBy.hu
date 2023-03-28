@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(34, 34, 34);
+    background-image: url(../képek/hatterkep.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@ body{
 .gombok{
     
     float: auto;
-    box-shadow: 0 10px 15px rgba(82, 82, 82, 0.233);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     transition: all 1s;
     border-radius: 70px;
     padding: auto;
@@ -39,7 +39,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: auto;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.384);
     border-radius: 15px;
     float: center;
     width: 200px;
@@ -47,7 +47,7 @@ body{
 
 .leiras {
     border-radius: 20px;
-    box-shadow: 0 10px 15px rgb(82, 82, 82);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     margin: auto;
     margin-top: 1cm;
     float: auto;
@@ -73,7 +73,7 @@ body{
 
 .udvozollek {
     border-radius: 20px;
-    box-shadow: 0 10px 15px rgba(82, 82, 82, 0.233);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     margin: auto;
     margin-top: 1cm;
     float: auto;
@@ -85,7 +85,7 @@ body{
 .sarokverziokijelzo{
     text-align: center;
     float: center;
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.384);
     color: white;
     padding: auto;
     width: 100px;
