@@ -95,3 +95,24 @@ body{
     border-radius: 15px;
 }
 
+.egyebweboldalak{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 1s;
+    float: center;
+    text-align: center;
+    padding: auto;
+}
+
+.egyebweboldalak a {
+    color: white;
+    transition: all 0.5s;
+    padding: auto;
+
+}
+
+.egyebweboldalak a:hover {
+    font-size: 0.4cm;
+    color: rgb(58, 165, 31);
+    transition: all 0.3s;
+}
