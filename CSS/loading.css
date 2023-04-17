@@ -9,6 +9,8 @@
     justify-content: center;
     background: rgb(0, 0, 0);
     transition: opacity 1s, visibility 1s;
+    text-align: center;
+    image-rendering: auto;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1cm;
@@ -26,7 +28,8 @@
     border: 15px solid transparent;
     border-top-color: transparent;
     border-radius: 50%;
-    animation: loading 5s ease infinite;
+    animation: loading 1s ease infinite;
+   image-rendering: auto;
   }
   
   @keyframes loading {
