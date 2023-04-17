@@ -1,10 +1,9 @@
 window.addEventListener("load", () => {
     const loader = document.querySelector(".loader");
-  
-    loader.classList.add("loader--hidden");
+      
+    setTimeout(() => loader.classList.add("loader--hidden"), 2500);
+    
   
     loader.addEventListener("transitionend", () => {
-      
     });
   });
-  

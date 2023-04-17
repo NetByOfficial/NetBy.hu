@@ -7,8 +7,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: black;
-    transition: opacity 0.75s, visibility 0.75s;
+    background: rgb(0, 0, 0);
+    transition: opacity 1s, visibility 1s;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1cm;
@@ -24,9 +24,9 @@
     width: 75px;
     height: 75px;
     border: 15px solid transparent;
-    border-top-color: #25a519;
+    border-top-color: transparent;
     border-radius: 50%;
-    animation: loading 0.75s ease infinite;
+    animation: loading 5s ease infinite;
   }
   
   @keyframes loading {
