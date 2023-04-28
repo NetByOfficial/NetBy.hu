@@ -27,12 +27,15 @@ body{
 }
 
 .gombok a:hover{
-    font-size: 0.4cm;
-    color: rgb(58, 165, 31);
+    font-size: 0.7cm;
+    color: white;
     transition: all 0.3s;
     padding: auto;
+    border-radius: 15px;
 }
-
+a{
+    text-decoration: none;
+}
 .fejlesztesalatt {
     color: rgb(209, 21, 21);
     font-size: 0.6cm;
