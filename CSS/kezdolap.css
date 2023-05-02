@@ -55,12 +55,12 @@ a{
 }
 
 .gombok a {
-    font-size: 0.43cm;
+    font-size: 0.40cm;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-right: 0.5cm;
     transition: all 0.5s;
-    padding-left: 0.2cm;
+    padding-left: 0.00001cm;
     padding: auto;
     text-decoration: none;
 }
