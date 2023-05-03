@@ -25,3 +25,30 @@
     float: auto;
     padding: auto;
 }
+
+.ujdonsagokleiras{
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    margin: auto;
+    margin-top: 1cm;
+    float: auto;
+    padding: auto;
+    text-align: center;
+}
+
+
+.ujdonsagokleiras h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(55, 92, 216);
+    border-radius: 6px;
+    float: auto;
+    padding: auto;
+}
+
+.ujdonsagokleiras h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    float: auto;
+    padding: auto;
+}

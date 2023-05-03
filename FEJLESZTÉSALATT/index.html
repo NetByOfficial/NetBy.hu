@@ -1,12 +1,149 @@
+<!---
+
+  Weboldal Verzió: V1.1
+
+--> 
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="CSS/kezdolap.css">
+    <link rel="stylesheet" href="CSS/ertekeles.css">
+    <link rel="stylesheet" href="CSS/loading.css">
+    <script src="JS/loading.js"></script>
+    <script src="JS/engedélyek.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <title>UZX Kezdőlap</title>
     
+</head>
+<body onload="Értesítés_Engedélykérés()">
+
+    
+    <div class="gombok">
+   </a>
+     <a href="index.html" class="kezdolapgomb">Kezdőlap</a>
+     <a href="HTML/Informáciok.html" class="informaciokgomb" title="Információk a Weboldalról">Infórmációk</a>
+     <a href="HTML/Frissítések.html" class="frissitesekgomb" title="Frissítések a Weboldalról">Frissítések</a>
+     <a href="HTML/képek.html" class="kepekkuldesegomb" title="Ide kattintva megtekinthedd a képeket amiket az emberek töltöttek fel a Weboldalra de akár te is tölthetsz fel.">Képek</a>
+    </div>
+
+    <div class="nyelv">
+      Nyelv
+      <br>
+      <div class="langWrap">
+     <select name="format" id="format">
+     <option selected disabled>Magyar</option>
+     <option value="Magyar" language='hu' class="active" >Magyar</option>
+     <option value="Angol"  language='en'>Angol</option>
+     <option value="Német"  language='de'>Német</option>
+     </select> 
+    </div> 
+    </div>
+
+    <div class="fejlesztesalatt">
+    <h6>Weboldal Fejlesztés alatt!</h6>
+   </div>
+
+    <div class="sarokverziokijelzo">
+      <h4>V: 1.7</h4>
+    </div>
+    
+    <div class="udvozollek">
+      <h1>Üdvözöllek a Weboldalon</h1>
+    </div>
+
+    <br>
+    <div class="wrapper">
+        <form
+          action="https://formspree.io/f/xeqwlbgg"
+          method="POST">
+          <label>
+            <br><div class="textform" lang="HU" translate="yes">Értékeje a Weboldalt</div>
+            <br>
+            <br><div class="textform" lang="HU" translate="yes">10/?</div>
+            <input type="number" name="Értékelés" required>
+            
+          </label>
+          <label>
+            <br><div class="textform" lang="HU" translate="yes">Név</div>
+            <input type="text" name="Név" required>
+            
+          </label>
+          <label>
+            <br><div class="textform" lang="HU" translate="yes">Megjegyzés</div>
+            <input type="text" name="Megjegyzés" required>
+            
+          </label>
+      <div class="kuldes">
+        <button type="submit" lang="HU" translate="yes" class="gombsubmit">Küldés</button>
+        
+        </div>
+        </form>
+    </div>
+    <br><br>
+      <div class="egyebweboldalak">
+       <h4>Egyéb Weboldalak amiket én fejlesztek:</h4>
+       <br>
+       <a href="https://kingcraftweboldal.github.io/KingCraft.hu/">KingCraft</a>
+      </div>
+
+      <script>
+        const langEl = document.querySelector('.langWrap');
+        const link = document.querySelectorAll('a');
+        const titlekezdolap = document.querySelector('.kezdolapgomb');
+        const titleinformaciok = document.querySelector('.informaciokgomb');
+        const titlefrissitesek = document.querySelector('.frissitesekgomb');
+        const titlekepek_kuldese = document.querySelector('.kepekkuldesegomb');
+    
+        link.forEach(el => {
+          el.addEventListener('click', () => {
+            langEl.querySelector('.active').classList.remove('active');
+            el.classList.add('active');
+    
+            const attr = el.getAttribute('language');
+    
+            titlekezdolap.textContent = data[attr].titlekezdolap;
+            titleinformaciok.textContent = data[attr].titleinformaciok;
+            titlefrissitesek.textContent = data[attr].titlefrissitesek;
+            titlekepek_kuldese.textContent = data[attr].titlekepek_kuldese;
+          });
+        });
+        
+        var data = {
+          "hu": 
+          {
+            "titlekezdolap": "Kezdőlap",
+            "titleinformaciok": "Infórmációk",
+            "titlefrissitesek": "Frissítések",
+            "titlekepek_kuldese": "Képek",
+            
+          },
+          "en": 
+          {
+            "titlekezdolap": "Home",
+            "titleinformaciok": "Information",
+            "titlefrissitesek": "Updates",
+            "titlekepek_kuldese": "Images",
+            
+          },
+          "de": 
+          {
+            "titlekezdolap": "Heim",
+            "titleinformaciok": "Information",
+            "titlefrissitesek": "Aktualisierungen",
+            "titlekepek_kuldese": "Bilder",
+            
+          }
+        }
+      </script>
+
 </body>
+<script src="JS/jsdelivr.js"></script>
+<script src="JS/sütik.js"></script>
 </html>

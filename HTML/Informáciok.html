@@ -26,6 +26,19 @@
         <a href="képek.html" title="Ide kattintva megtekinthedd a képeket amiket az emberek töltöttek fel a Weboldalra de akár te is tölthetsz fel.">Képek</a>
        </div>
 
+       <div class="nyelv">
+        Nyelv
+        <br>
+        <div class="langWrap">
+       <select name="format" id="format">
+       <option selected disabled>Magyar</option>
+       <option value="Magyar" language='hu' class="active" >Magyar</option>
+       <option value="Angol"  language='en'>Angol</option>
+       <option value="Német"  language='de'>Német</option>
+       </select> 
+      </div> 
+      </div>
+
     <div class="fejlesztesalatt">
         <h6>Weboldal Fejlesztés alatt!</h6></div>
 
@@ -41,7 +54,55 @@
         <h2>Hozzáférés:</h2><h3 class="Hozzáférés"></h3>
     </div>
 
-
+      <script>
+        const langEl = document.querySelector('.langWrap');
+        const link = document.querySelectorAll('a');
+        const titlekezdolap = document.querySelector('.kezdolapgomb');
+        const titleinformaciok = document.querySelector('.informaciokgomb');
+        const titlefrissitesek = document.querySelector('.frissitesekgomb');
+        const titlekepek_kuldese = document.querySelector('.kepekkuldesegomb');
+    
+        link.forEach(el => {
+          el.addEventListener('click', () => {
+            langEl.querySelector('.active').classList.remove('active');
+            el.classList.add('active');
+    
+            const attr = el.getAttribute('language');
+    
+            titlekezdolap.textContent = data[attr].titlekezdolap;
+            titleinformaciok.textContent = data[attr].titleinformaciok;
+            titlefrissitesek.textContent = data[attr].titlefrissitesek;
+            titlekepek_kuldese.textContent = data[attr].titlekepek_kuldese;
+          });
+        });
+        
+        var data = {
+          "hu": 
+          {
+            "titlekezdolap": "Kezdőlap",
+            "titleinformaciok": "Infórmációk",
+            "titlefrissitesek": "Frissítések",
+            "titlekepek_kuldese": "Képek",
+            
+          },
+          "en": 
+          {
+            "titlekezdolap": "Home",
+            "titleinformaciok": "Information",
+            "titlefrissitesek": "Updates",
+            "titlekepek_kuldese": "Images",
+            
+          },
+          "de": 
+          {
+            "titlekezdolap": "Heim",
+            "titleinformaciok": "Information",
+            "titlefrissitesek": "Aktualisierungen",
+            "titlekepek_kuldese": "Bilder",
+            
+          }
+        }
+      </script>
 
 </body>
 <script src="../JS/jsdelivr.js"></script>
