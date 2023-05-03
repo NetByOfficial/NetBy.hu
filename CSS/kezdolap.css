@@ -5,6 +5,27 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.nyelv{
+    border-radius: 15px;
+    font-size: 0.5cm;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: auto;
+    float: right;
+    text-decoration: none;
+}
+
+option{
+    border-radius: 15px;
+    color: black;
+    background-color: rgba(58, 58, 58, 0.212);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+select{
+    border-radius: 15px;
+    background-color: rgba(58, 58, 58, 0.212);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .gombok{
     
@@ -40,8 +61,18 @@ a{
 }
 
 @media screen and (max-width: 500px){
+body{
+
+        background-image: url(../képek/hatterkep.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 a{
     font-size: 0.5cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .gombok{
