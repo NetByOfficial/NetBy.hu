@@ -190,7 +190,6 @@ class Plant {
     }
   });
   function adatmentes() {
-    localStorage.clear()
   const gameState = {
     Cells: cells,
     CurrentPlant: currentPlant,
