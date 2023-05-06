@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Növény termesztős játék</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="weather/weather.css">
+	<script src="weather/weather.js"></script>
+
+	<!--Ellenségek:-->
+
+	<script src="enemys/Bee/bee.js"></script>
+	<link rel="stylesheet" href="enemys/Bee/bee.css">
+
+	<!--Day Night:-->
+	<link rel="stylesheet" href="day night/day night.css">
+
+	<!--Day Night:-->
+	<link rel="stylesheet" href="">
+</head>
+
+<body>
+	
+	<div class="container">
+
+		<div class="gameboard" id="cells">
+		<div id="plants" onmousemove=""></div>
+			<div id="plant-info" class="hidden">
+				<p id="plant-name"></p>
+				<p id="plant-date"></p>
+			</div>
+			<div class="message">
+				<div class="account_info">
+					<div id="username_here"></div>
+				</div>
+			<div class="menu">
+				<a href="Menü/Leltár">| Leltár |</a>
+				<a href="Menü/JátékBeállítások">| Mentés |</a>
+			</div>
+				<p>Üdvözlünk a növénytermesztős játékban! Ültess és gondozz növényeket, majd takarítsd be a termést!</p>
+				<button onclick="adatmentes()">Adatok Mentése</button>
+				<button onclick="adatbetoltes()">Adatok Betöltése</button>
+				<br>
+				<!--<p>Elvesztett Növények: <p id="lost_plant"></p></p> -->
+				<div class="btn-container">
+					
+					<button id="harvest-button">Betakarítás</button>
+					<button id="water-button" onclick="waterPlant()">Öntözés</button>
+				  </div>
+				  
+		</div>
+	</div>
+
+	<script type="module" src="plant_info.js"></script>
+	<script src="script.js"></script>
+	<script src="login register/script.js"></script>
+
+	<div id="weather">
+		<div class="weather-icon"></div>
+        <div class="weather-text"></div>
+		
+	</div>
+</body>
+</html>

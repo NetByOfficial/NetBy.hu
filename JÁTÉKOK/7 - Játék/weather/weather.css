@@ -1,0 +1,25 @@
+#weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+#weather.raining {
+  animation: rain 0.5s linear infinite;
+}
+
+@keyframes rain {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

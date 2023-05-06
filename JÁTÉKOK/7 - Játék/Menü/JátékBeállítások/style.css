@@ -1,0 +1,80 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F2F2F2;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+h1 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #000000;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Alapértelmezett mobil méret */
+@media only screen and (max-width: 480px) {
+	h1 {
+	  font-size: 24px;
+	  padding: 15px;
+	}
+  }
+  
+  /* Kis méretű tabletek */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+	h1 {
+	  font-size: 36px;
+	  padding: 20px;
+	}
+  }
+  
+  /* Közepes méretű tabletek */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+	h1 {
+	  font-size: 48px;
+	  padding: 25px;
+	}
+  }
+  
+  a{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #000000;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+	text-decoration: none;
+  }
+
+  a:hover{
+	color: #a4a5a4;
+	text-decoration: underline;
+	transition: all 0.3s;
+  }  
+
+  button{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+	outline: none;
+	outline-style: none;
+  }
+
+  button:hover{
+	transition: all 0.3s;
+	background-color: #e0e0e0;
+	outline: none;
+	outline-style: none;
+  }  

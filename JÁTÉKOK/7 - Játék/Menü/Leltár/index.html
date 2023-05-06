@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inventory példa</title>
+<link rel="stylesheet" href="inventory.css">
+  </head>
+  <body>
+    <h1>Inventory</h1>
+    <div class="inventory-container">
+      <div class="inventory-item" id="seed-inventory">
+        <h2>Növény magok</h2>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </div>
+      <div class="inventory-item" id="harvest-inventory">
+        <h2>Betakarítás</h2>
+      </div>
+    </div>
+    <div class="vissza-btn">
+    <a href="../../">Vissza</a></div>
+    <script>
+      const inventory = {
+        seeds: [
+          { name: "Paradicsom mag", img: "item/paradicsom/tomato seed.png", description: "Egy paradicsom növény magja" },
+          { name: "Répa mag", img: "item/répa/carrot seed.png", description: "Egy répa növény magja" }
+        ],
+        harvestedItems: [
+          { name: "Paradicsom", img: "item/paradicsom/tomato.png", description: "Egy friss paradicsom" },
+          { name: "Répa", img: "item/répa/carrot.png", description: "Egy friss répa" }
+        ]
+      };
+
+      const seedInventory = document.getElementById("seed-inventory");
+      const harvestInventory = document.getElementById("harvest-inventory");
+
+      // Növény magok hozzáadása az inventory-hoz
+      inventory.seeds.forEach(seed => {
+        const div = document.createElement("div");
+        div.classList.add("inventory-item");
+        div.innerHTML = `
+          <img src="${seed.img}" alt="${seed.name} ikon">
+          <h3>${seed.name}</h3>
+          <p>${seed.description}</p>
+        `;
+        seedInventory.appendChild(div);
+    });
+
+    // Betakarított tárgyak hozzáadása az inventory-hoz
+    inventory.harvestedItems.forEach(item => {
+      const div = document.createElement("div");
+      div.classList.add("inventory-item");
+      div.innerHTML = `
+        <img src="${item.img}" alt="${item.name} ikon">
+        <h3>${item.name}</h3>
+        <p>${item.description}</p>
+      `;
+      harvestInventory.appendChild(div);
+    });
+  </script>
+</body>
+</html>  

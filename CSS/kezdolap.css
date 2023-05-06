@@ -105,6 +105,53 @@ a{
     border-radius: 15px;
     text-decoration: underline;
 }
+
+.games{
+    display: flex;
+    float: center;
+    text-align: center;
+    padding-left: 1cm;
+    padding: 1cm;
+    border-radius: 25px;
+   height: 200px;
+   width: 200px;
+}
+
+.games a img:hover{
+    padding: 0.2cm;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.2s;
+    height: 200px;
+    width: 200px;
+}
+
+.games a img:hover:after{
+    padding: 0.2cm;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.2s;
+    height: 200px;
+    width: 200px;
+}
+.games a img:before:hover{
+    padding: 0.2cm;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.2s;
+    height: 200px;
+    width: 200px;
+}
+.games a {
+
+transition: all 0.8s;
+height: 200px;
+width: 200px;
+}
+.games a img{
+border-radius: 25px;
+transition: all 0.2s;
+height: 200px;
+width: 200px;
+}
+
 }
 .fejlesztesalatt {
     color: rgb(209, 21, 21);
@@ -195,3 +242,41 @@ a{
     border-radius: 15px; 
     text-decoration: underline;
 }
+
+.games{
+    float: center;
+    text-align: center;
+    padding-left: 1cm;
+    border-radius: 25px;
+
+}
+
+.games a img:hover{
+    padding: 0.2cm;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.2s;
+}
+
+.games a img:hover:after{
+    padding: 0.2cm;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.2s;
+}
+.games a img:before:hover{
+    padding: 0.2cm;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.2s;
+}
+.games a {
+
+transition: all 0.8s;
+}
+.games a img{
+border-radius: 25px;
+transition: all 0.2s;
+}
+
+.red_text{
+    color: red;
+}
+
