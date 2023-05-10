@@ -19,19 +19,21 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-    <title>UZX Kezdőlap</title>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Kezdőlap</title>
+    <script src="JS/JsonIndito.js"></script>
 </head>
 <body onload="Értesítés_Engedélykérés()">
 
     
     <div class="gombok">
    </a>
-     <a href="index.html" class="kezdolapgomb">Kezdőlap</a>
-     <a href="HTML/Informáciok.html" class="informaciokgomb" title="Információk a Weboldalról">Infórmációk</a>
-     <a href="HTML/Frissítések.html" class="frissitesekgomb" title="Frissítések a Weboldalról">Frissítések</a>
-     <a href="HTML/képek.html" class="kepekkuldesegomb" title="Ide kattintva megtekinthedd a képeket amiket az emberek töltöttek fel a Weboldalra de akár te is tölthetsz fel.">Képek</a>
-     <a href="HTML/Játékok.html" class="" title="A Weboldalon játékokat is tudsz játszani, ide kattintva kipróbálhatód">Játékok [új]</a>
+     <a href="index.html" class="kezdolapgomb"><strong>Kezdőlap</strong></a>
+     <a href="HTML/Informáciok.html" class="informaciokgomb" title="Információk a Weboldalról"><strong>Infórmációk</strong></a>
+     <a href="HTML/Frissítések.html" class="frissitesekgomb" title="Frissítések a Weboldalról"><strong>Frissítések</strong></a>
+     <a href="HTML/képek.html" class="kepekkuldesegomb" title="Ide kattintva megtekinthedd a képeket amiket az emberek töltöttek fel a Weboldalra de akár te is tölthetsz fel."><strong>Képek</strong></a>
+     <a href="HTML/Játékok.html" class="" title="A Weboldalon játékokat is tudsz játszani, ide kattintva kipróbálhatód"><strong>Játékok [új]</strong></a>
+     <a href="HTML/setup.html"><strong>Setup [új]</strong></a>
     </div>
 
     <div class="nyelv">
@@ -52,7 +54,7 @@
    </div>
 
     <div class="sarokverziokijelzo">
-      <h4>V: 1.8</h4>
+     <h4 class="Verzió"></h4>
     </div>
     
     <div class="udvozollek">
@@ -150,7 +152,7 @@
         }
       </script>
 
-    <py-script src="PY/main.py"><py-script>
+    <py-script src="PY/main.py" class="pythontext"><py-script>
 
      
 </body>

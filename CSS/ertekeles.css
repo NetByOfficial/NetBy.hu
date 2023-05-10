@@ -3,10 +3,10 @@
     width: 300px;
     padding: 2rem 0 1rem 0;
     margin: 50px auto;
- 
+    background-color: rgba(0, 0, 0, 0.144);
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.384);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.473);
     color: #ffffff;
     font-size: 0.4cm;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

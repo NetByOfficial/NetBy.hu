@@ -1,0 +1,226 @@
+@font-face{
+    font-family: Poppins-Light;
+    src: url(../FONTS/Poppins/Poppins-Medium.ttf);
+}
+
+body{
+    font-family: Poppins-Light
+
+}
+
+.description-pc{
+    display: block;
+    float: left;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.164);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    color: white;
+    margin-left: 7cm;
+    margin-right: 18cm;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.description-pc:hover{
+background-color: rgba(83, 83, 83, 0.158);
+transition: all 0.3s;
+}
+
+.line_description{
+    color: black;
+}
+
+
+.cpu{
+    transition: all 0.4s;
+    border-radius: 25px; 
+}
+
+.cpu:hover{
+    background-color: rgba(0, 0, 0, 0.459);
+    background-position: left;
+    background-size: 1cm;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: rgb(255, 0, 85);
+}
+
+.ram{
+    transition: all 0.4s;
+    border-radius: 25px; 
+}
+  
+.ram:hover{
+    background-color: rgba(0, 0, 0, 0.459);
+    background-position: left;
+    background-size: 1cm;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: rgb(255, 0, 85);
+}
+
+.gpu{
+    transition: all 0.4s;
+    border-radius: 25px; 
+}
+  
+.gpu:hover{
+    background-color: rgba(0, 0, 0, 0.459);
+    background-position: left;
+    background-size: 1cm;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: rgb(255, 0, 85);
+}
+
+.os{
+    transition: all 0.4s;
+    border-radius: 25px;  
+}
+
+.storage{
+    transition: all 0.4s;
+    border-radius: 25px; 
+}
+  
+.storage:hover{
+    background-color: rgba(0, 0, 0, 0.459);
+    background-position: left;
+    background-size: 1cm;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: rgb(255, 0, 85);
+}
+
+.os:hover{
+    background-color: rgba(0, 0, 0, 0.459);
+    background-position: left;
+    background-size: 1cm;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: rgb(255, 0, 85);
+}
+
+.description-programs{
+    display: block;
+    float: right;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.164);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    color: white;
+    margin-left: 10cm;
+    margin-right: 21.5cm;
+    margin-top: -7.2cm;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.description-programs:hover{
+    background-color: rgba(83, 83, 83, 0.158);
+    transition: all 0.3s;
+}
+.program{
+    transition: all 0.4s;
+    border-radius: 25px;
+}
+
+.program:hover{
+    background-color: rgba(0, 0, 0, 0.459);
+    background-position: left;
+    background-size: 1cm;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: rgb(255, 0, 85);
+}
+
+.description-more{
+    display: block;
+    float: right;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.164);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    color: white;
+    margin-left: 10cm;
+    margin-right: 8cm;
+    margin-top: -7.2cm;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.description-more:hover{
+    background-color: rgba(83, 83, 83, 0.158);
+    transition: all 0.3s;
+}
+.device{
+    transition: all 0.4s;
+    border-radius: 25px;
+}
+
+.device:hover{
+    background-color: rgba(0, 0, 0, 0.459);
+    background-position: left;
+    background-size: 1cm;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: rgb(255, 0, 85);
+}
+
+/* MÉDIA (telefon, tablet)*/
+
+@media screen and (max-width: 500px){
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.description-pc{
+    display: grid;
+    float: left;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.164);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    color: white;
+    margin-left: -0.1cm;
+    margin-right: 1cm;
+    border-radius: 15px;
+    font-size: 0.27cm;
+    transition: all 0.3s; 
+}
+
+.description-programs{
+    display: grid;
+    float: right;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.164);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    color: white;
+    margin-left: 10cm;
+    margin-right: 2.5cm;
+    margin-top: 0.7cm;
+    border-radius: 15px;
+    font-size: 0.27cm;
+    width: 5cm;
+    transition: all 0.3s;
+}
+
+.description-more{
+    display: grid;
+    float: right;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.164);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    color: white;
+    margin-left: 1cm;
+    margin-right: -0.2cm;
+    margin-top: -10.43cm;
+    border-radius: 15px;
+    font-size: 0.27cm;
+    transition: all 0.3s;
+}
+    
+}
+
+
+
+

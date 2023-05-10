@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/kezdolap.css">
+    <link rel="stylesheet" href="../CSS/loading.css">
+    <link rel="stylesheet" href="../CSS/setup.css">
+
+    <script src="../JS/engedélyek.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <title>NetBy Információk</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../JS/JsonIndito.js"></script>
+</head>
+<body>
+
+
+    <div class="gombok">
+        <a href="../index.html"><strong>Kezdőlap</strong></a>
+        <a href="Informáciok.html"title="Információk a Weboldalról"><strong>Infórmációk</strong></a>
+        <a href="Frissítések.html"title="Frissítések a Weboldalról"><strong>Frissítések</strong></a>
+        <a href="képek.html" title="Ide kattintva megtekinthedd a képeket amiket az emberek töltöttek fel a Weboldalra de akár te is tölthetsz fel."><strong>Képek</strong></a>
+        <a href="Játékok.html" class="" title="A Weboldalon játékokat is tudsz játszani, ide kattintva kipróbálhatód"><strong>Játékok [új]</strong></a>
+        <a href="setup.html"><strong>Setup [új]</strong></a>
+       </div>
+
+       <div class="nyelv">
+        Nyelv
+        <br>
+        <div class="langWrap">
+       <select name="format" id="format">
+       <option selected disabled>Magyar</option>
+       <option value="Magyar" language='hu' class="active" >Magyar</option>
+       <option value="Angol"  language='en'>Angol</option>
+       <option value="Német"  language='de'>Német</option>
+       </select> 
+      </div> 
+      </div>
+
+    <div class="fejlesztesalatt">
+        <h6>Weboldal Fejlesztés alatt!</h6>
+      </div>
+
+        <div class="sarokverziokijelzo">
+          <h4 class="Verzió"></h4>
+          </div>
+          
+
+    <div class="description-pc">
+      <h2><strong>Számítógép</strong></h2>
+      <div class="line_description">+-----------+</div>
+
+      <div class="cpu"><strong>CPU:</strong> i5-10600K</div>
+      <div class="ram"><strong>RAM:</strong> 16GB Kingston HyperX Fury</div>
+      <div class="gpu"><strong>GPU:</strong> NVIDIA GeForce GTX 1660 SUPER</div>
+      <div class="os"><strong>OS:</strong> Windows 11 Home</div>
+      <div class="storage"><strong>SSD1:</strong> Samsung 970 EVO Plus 1TB</div>
+      <div class="storage"><strong>SSD2:</strong> Patriot Burst 960GB</div>
+      <div class="storage"><strong>HDD:</strong> TOSHIBA HDWD110 1TB</div>
+    </div>
+   
+    <div class="description-programs">
+      <h2><strong>Szoftverek</strong></h2>
+      <div class="line_description">+-----------+</div>
+      <div class="programs">
+        <div class="program"><strong>Vágóprogram:</strong> Adobe Premiere Pro</div>
+        <div class="program"><strong>Képszerkesztő:</strong> PhotoScape X Pro</div>
+        <div class="program"><strong>Rögzítés:</strong> Obs Studio</div>
+        <div class="program"><strong>Export:</strong> Adobe Media Encoder</div>
+        <div class="program"><strong>Hangszerkesztő:</strong> Audacity</div>
+        <div class="program"><strong>Böngésző:</strong> Microsoft Edge</div>
+        <div class="program"><strong>Szövegszerkesztő:</strong> Visual Studio Code</div>
+
+      </div>
+    </div>
+
+    <div class="description-more">
+    <h2><strong>Egyéb</strong></h2>
+    <div class="line_description">+-----------+</div>
+    <div class="device"><strong>Egér:</strong> Razer Viper 8k</div>
+    <div class="device"><strong>Billentyűzet:</strong> Genesis Thor 300 RGB</div>
+    <div class="device"><strong>Mikrofon:</strong> Genesis Radium 300 XLR</div>
+    <div class="device"><strong>Telefon:</strong> Samsung Galaxy A32 5G</div>
+    </div>
+      <script>
+        const langEl = document.querySelector('.langWrap');
+        const link = document.querySelectorAll('a');
+        const titlekezdolap = document.querySelector('.kezdolapgomb');
+        const titleinformaciok = document.querySelector('.informaciokgomb');
+        const titlefrissitesek = document.querySelector('.frissitesekgomb');
+        const titlekepek_kuldese = document.querySelector('.kepekkuldesegomb');
+    
+        link.forEach(el => {
+          el.addEventListener('click', () => {
+            langEl.querySelector('.active').classList.remove('active');
+            el.classList.add('active');
+    
+            const attr = el.getAttribute('language');
+    
+            titlekezdolap.textContent = data[attr].titlekezdolap;
+            titleinformaciok.textContent = data[attr].titleinformaciok;
+            titlefrissitesek.textContent = data[attr].titlefrissitesek;
+            titlekepek_kuldese.textContent = data[attr].titlekepek_kuldese;
+          });
+        });
+        
+        var data = {
+          "hu": 
+          {
+            "titlekezdolap": "Kezdőlap",
+            "titleinformaciok": "Infórmációk",
+            "titlefrissitesek": "Frissítések",
+            "titlekepek_kuldese": "Képek",
+            
+          },
+          "en": 
+          {
+            "titlekezdolap": "Home",
+            "titleinformaciok": "Information",
+            "titlefrissitesek": "Updates",
+            "titlekepek_kuldese": "Images",
+            
+          },
+          "de": 
+          {
+            "titlekezdolap": "Heim",
+            "titleinformaciok": "Information",
+            "titlefrissitesek": "Aktualisierungen",
+            "titlekepek_kuldese": "Bilder",
+            
+          }
+        }
+      </script>
+
+</body>
+<script src="../JS/jsdelivr.js"></script>
+<script src="../JS/sütik.js"></script>
+</html>
