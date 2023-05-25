@@ -22,10 +22,12 @@
     width: 85%;
     outline: none;
     border: none;
-    background: #ffffff0a ;
+    background: rgba(255, 255, 255, 0.123) ;
     padding: 12px 14px;
     margin-bottom: 10px;
     border-radius: 120px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .recover{
     text-align: right;
@@ -38,6 +40,7 @@
   }
 
   .gombsubmit{
+    background-color: white;
     font-size: 1.1rem;
     margin-top: 1rem;
     padding: 8px 0;
@@ -45,15 +48,21 @@
     outline: none;
     border: none;
     width: 85%;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.384);
+    box-shadow: 0 45px 35px rgba(0, 0, 0, 0.384);
     cursor: pointer;
     font-family: cursive;
-    transition: all 0.3s;
+    transition: all 0.56s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .gombsubmit:hover{
+    background-color: rgb(255, 0, 85);;
+    color: white;
+    transition: all 0.56s;
   }
 .kuldes a
   .textform {
    margin-bottom: 1.7rem;
-  color: #ffffff;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+  
   }

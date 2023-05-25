@@ -12,16 +12,30 @@
 }
 
 .ujdonsagok h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(55, 92, 216);
     border-radius: 6px;
     float: auto;
     padding: auto;
+    color: transparent;
+    background-image: linear-gradient(to left, white,#695555,#ff0055);
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    text-align: center;
 }
-
+@keyframes animate{
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
 .ujdonsagok h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgba(119, 0, 255, 0.945);
     border-radius: 6px;
     float: auto;
     padding: auto;
@@ -39,7 +53,6 @@
 
 
 .ujdonsagokleiras h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(55, 92, 216);
     border-radius: 6px;
     float: auto;
@@ -47,7 +60,6 @@
 }
 
 .ujdonsagokleiras h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     border-radius: 6px;
     float: auto;

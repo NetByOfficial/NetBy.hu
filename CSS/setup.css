@@ -22,8 +22,8 @@ body{
 }
 
 .description-pc:hover{
-background-color: rgba(83, 83, 83, 0.158);
-transition: all 0.3s;
+    background-color: rgba(83, 83, 83, 0.288);
+    transition: all 0.3s;
 }
 
 .line_description{
@@ -116,7 +116,7 @@ transition: all 0.3s;
 }
 
 .description-programs:hover{
-    background-color: rgba(83, 83, 83, 0.158);
+    background-color: rgba(83, 83, 83, 0.288);
     transition: all 0.3s;
 }
 .program{
@@ -148,7 +148,7 @@ transition: all 0.3s;
 }
 
 .description-more:hover{
-    background-color: rgba(83, 83, 83, 0.158);
+    background-color: rgba(83, 83, 83, 0.288);
     transition: all 0.3s;
 }
 .device{
