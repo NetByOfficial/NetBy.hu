@@ -45,6 +45,7 @@ select{
     
     float: auto;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    background-color: rgba(0, 0, 0, 0.075);
     transition: all 1s;
     border-radius: 70px;
     padding: auto;
@@ -68,7 +69,6 @@ select{
     transition: all 0.3s;
     padding: auto;
     border-radius: 15px;
-    text-decoration: underline;
     color: rgb(255, 0, 85);
     transition: all 0.4s;
 }
@@ -237,6 +237,7 @@ width: 200px;
 }
 
 .egyebweboldalak a {
+    font-size: 0.4cm;
     color: white;
     transition: all 0.5s;
     padding: auto;
@@ -244,12 +245,11 @@ width: 200px;
 }
 
 .egyebweboldalak a:hover {
-    font-size: 0.7cm;
+    font-size: 0.5cm;
     color: rgb(255, 0, 85);
     transition: all 0.3s;
     padding: auto;
     border-radius: 15px; 
-    text-decoration: underline;
 }
 
 .games{
@@ -397,4 +397,31 @@ image-resolution: 100%;
     margin-right: 18cm;
     color: white;
     border-radius: 15px;
+}
+
+a{
+    display: inline-block;
+    position: relative;
+    color: #fff
+}
+
+a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff0055;
+    transition: transform .25s ease-out
+}
+a:hover{
+  color: white;
+  transform: scale(1, 1);
+  transition: transform 0.3s ease;
+}
+
+a:hover::after{
+    transform: scaleX(1)
 }
