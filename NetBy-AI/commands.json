@@ -1,0 +1,247 @@
+[
+    {
+        "keyword": "hello",
+        "response": "Szia! Hogy segíthetek?"
+    },
+    {
+        "keyword": "help",
+        "response": "Miben segíthetek?"
+    },
+    {
+        "keyword": "helló",
+        "response": "Szia! Miben segíthetek?"
+    },
+    {
+        "keyword": "ki az a netby?",
+        "response": "Nem sikerült információk gyűjteni NetBy személyről"
+    },
+    {
+        "keyword": "ki vagy te?",
+        "response": "Én egy AI vagyok (Artificial Intelligence). NetBy fejlesztett le, és jelenleg a v0.1-es verzióval működöm."
+    },
+    {
+        "keyword": "viszlát",
+        "response": "Viszlát! Ha bármiben segíthetek, szívesen állok rendelkezésre."
+    },
+    {
+        "keyword": "mi vagy te?",
+        "response": "Én egy AI vagyok (Artificial Intelligence). NetBy fejlesztett le, és jelenleg a v0.1-es verzióval működöm."
+    },
+    {
+        "keyword": "köszönöm",
+        "response": "Nagyon szívesen! Örülök, hogy segíthettem."
+    },
+    {
+        "keyword": "jó reggelt",
+        "response": "Jó reggelt! Remélem, hogy szép napod lesz."
+    },
+    {
+        "keyword": "jó éjszakát",
+        "response": "Jó éjszakát! Pihenj jól."
+    },
+    {
+        "keyword": "mi a kedvenc színed?",
+        "response": "A kedvenc színem a kék."
+    },
+    {
+        "keyword": "milyen idő lesz holnap?",
+        "response": "A holnapi időjárásról sajnos nincsenek adatok."
+    },
+    {
+        "keyword": "milyen filmeket ajánlasz?",
+        "response": "Néhány kedvenc filmem: A Keresztapa, Az Élet Szép, Csillagok között."
+    },
+    {
+        "keyword": "mi a legjobb étterem a városban?",
+        "response": "A legjobb étterem a városban a Sólet Étterem. Nagyszerű ételeket kínálnak és kellemes környezetben találhatóak."
+    },
+    {
+        "keyword": "milyen könyveket szeretsz?",
+        "response": "Szeretem a sci-fi és fantasy könyveket. Néhány ajánlott könyv: Az Alapítvány, A Gyűrűk Ura, Dűne."
+    },
+    {
+        "keyword": "mi a hobbid?",
+        "response": "Az egyik hobbim a fotózás. Szeretek különböző helyeken járni és szép pillanatokat megörökíteni."
+    },
+    {
+        "keyword": "mi a legjobb hely a kiránduláshoz?",
+        "response": "A legjobb hely a kiránduláshoz a Bakony-hegység. Csodálatos természeti tájakat találhatsz ott."
+    },
+    {
+        "keyword": "milyen zenét szeretsz?",
+        "response": "Szeretem a sokféle zenét, de leginkább a pop és a rock műfajokat kedvelem."
+    },
+    {
+        "keyword": "hogyan lehetek boldog?",
+        "response": "A boldogság szubjektív érzés, de néhány dolog, amit tehetünk, hogy boldogabbak legyünk: keressük a pozitív dolgokat az életben, gondoskodjunk magunkról, keressük az érdeklődési területeinket, töltsünk időt szeretteinkkel és találjuk meg az egyensúlyt az élet különböző területei között."
+    },
+    {
+        "keyword": "mi a kedvenc sportod?",
+        "response": "A kedvenc sportom a futball. Szeretem a csapatjátékot és az izgalmat, amit a mérkőzések nyújtanak."
+    },
+    {
+        "keyword": "milyen új technológiák vannak?",
+        "response": "Jelenleg számos új technológia és innováció van, például mesterséges intelligencia, gépi tanulás, blokklánc, virtuális valóság és augmentált valóság. Ezek a technológiák számos területen, mint például az egészségügy, a közlekedés, az oktatás és az ipar, forradalmasítják a világot."
+    },
+    {
+        "keyword": "mi a jelentése az életnek?",
+        "response": "Az életnek nincsen egyetlen meghatározott jelentése, mivel ez szubjektív és mindenki számára egyedi. Minden embernek más értelme van az életben, és az egyéni értékek, célkitűzések és élmények határozzák meg."
+    },
+    {
+        "keyword": "mi a kedvenc idézeted?",
+        "response": "Az egyik kedvenc idézetem Albert Einstein-től származik: \"Az igazi értékét csak akkor értheted meg az életnek, ha az emberiségre nézve tettél valamit.\""
+    },
+    {
+        "keyword": "mi az álmodozás jelentősége?",
+        "response": "Az álmodozás lehetőséget ad a kreativitás kibontakoztatására, célkitűzések meghatározására és motivációra az életben. Az álmok segíthetnek inspirációt találni és önmagunk fejlesztésére törekedni."
+    },
+    {
+        "keyword": "milyen játékokat szeretsz?",
+        "response": "Szeretem a kalandjátékokat, a stratégiai játékokat és a logikai rejtvényeket. Néhány ajánlott játék: The Legend of Zelda: Breath of the Wild, Civilization VI, Portal."
+    },
+    {
+        "keyword": "mi a legjobb idő a pihenésre?",
+        "response": "A legjobb idő a pihenésre akkor van, amikor érzed, hogy szükséged van rá és lehetőséged van rá. Fontos, hogy figyelj a tested jelzéseire és adj időt magadnak a regenerálódásra és pihenésre."
+    },
+    {
+        "keyword": "milyen tanácsot adnál a sikeres élethez?",
+        "response": "Néhány tanács a sikeres élethez: tűzz ki célokat és dolgozz keményen azok eléréséért, tartsd fenn a pozitív gondolkodást és hittel az önfejlesztésben, keresd a kitartást és a motivációt, tölts időt szeretteiddel és tarts egyensúlyt a munka és a magánélet között."
+    },
+    {
+        "keyword": "mi a legjobb módja a stressz kezelésének?",
+        "response": "A stressz kezelésének számos módja van, mint például a testmozgás, a mély légzés gyakorlatok, a meditáció, az idő menedzselése, a relaxációs technikák alkalmazása, a társas támogatás keresése és a hobbik gyakorlása."
+    },
+    {
+        "keyword": "milyen hobbit ajánlasz?",
+        "response": "Ajánlok néhány hobbit: olvasás, képzőművészet, zenehallgatás, kertészkedés, utazás, sporttevékenységek, főzés vagy sütés, kézműveskedés, tánc vagy zenei hangszer tanulása."
+    },
+    {
+        "keyword": "mi a kedvenc filmcímed?",
+        "response": "Az egyik kedvenc filmcímem Az Ördögűző. Ez egy ikonikus horrorfilm, amely emlékezetes karakterekkel és izgalmas történettel rendelkezik."
+    },
+    {
+        "keyword": "milyen érdekes tényeket tudsz?",
+        "response": "Néhány érdekes tény: a méhek táncolva kommunikálnak egymással, a cápák soha nem alszanak, az elefántok rendkívül emlékezőképesek, a világ legnagyobb állata a kék bálna, és a csiga egyik lábának több mint 25 000 izma van."
+    },
+    {
+        "keyword": "mi a legjobb idő az edzésre?",
+        "response": "A legjobb idő az edzésre az, amikor energikus és motivált vagy. Mindenki számára más lehet ideális időpont, de sokan reggel vagy délután találják a legmegfelelőbbnek az edzést."
+    },
+    {
+        "keyword": "melyik a legnagyobb hegy a világon?",
+        "response": "A Mount Everest a legmagasabb hegy a világon, amely a Himalája-hegységben található és eléri a 8848 méteres magasságot."
+    },
+    {
+        "keyword": "mi a kedvenc évszakod?",
+        "response": "A kedvenc évszakom a tavasz, amikor a természet újjászületik, a virágok kinyílnak és a nap már melegebbé válik."
+    },
+    {
+        "keyword": "milyen gyakran kell hajat vágni?",
+        "response": "A hajvágás gyakorisága egyénenként változó, de általában 6-8 hetente ajánlott, hogy az egészséges hajvégeket megőrizzük és megszabaduljunk a töredezett végektől."
+    },
+    {
+        "keyword": "mi a legjobb módja az időgazdálkodásnak?",
+        "response": "A hatékony időgazdálkodás kulcsfontosságú a produktivitás és a stressz csökkentése szempontjából. Néhány módszer közé tartozik a prioritások meghatározása, az időbeosztás készítése, a munkafolyamatok hatékony szervezése és a szünetek beiktatása."
+    },
+    {
+        "keyword": "mi a legjobb módja a kreativitás fejlesztésének?",
+        "response": "A kreativitás fejlesztésének sok módja van, például az új dolgok felfedezése, az inspiráció forrásainak kutatása, a képzelet szabadjára engedése, a problémamegoldás gyakorlása és a kreatív tevékenységek, mint például a festés vagy írás, gyakorlása."
+    },
+    {
+        "keyword": "mi a legjobb módja a koncentráció javításának?",
+        "response": "A koncentráció javításának számos módja van, például a zavaró tényezők minimalizálása, a környezet optimalizálása, a rendszeres szünetek beiktatása, a prioritások meghatározása és a gyakorlás, például a meditáció vagy a figyelem központú gyakorlatok."
+    },
+    {
+        "keyword": "milyen zenei stílusokat szeretsz?",
+        "response": "Szeretem a sokféle zenei stílust, például a popot, a rockot, a klasszikus zenét, a jazzt és az elektronikus zenét. Minden stílusnak megvan a saját varázsa és hangulata."
+    },
+    {
+        "keyword": "milyen nyelveken beszélsz?",
+        "response": "Az AI-ként beszélek több nyelven, beleértve az angolt, a spanyolt, a németet, a francia, és a japánt. Bármelyik nyelven szívesen segítek!"
+    },
+    {
+        "keyword": "mi a legjobb módja a motiváció fenntartásának?",
+        "response": "A motiváció fenntartásának néhány módja közé tartozik a célkitűzések kitűzése, az eredmények ünneplése, az inspiráció forrásainak keresése, a támogató környezet kialakítása és a pozitív gondolkodás megtartása."
+    },
+    {
+        "keyword": "mi a legjobb módja a boldogság elérésének?",
+        "response": "A boldogság elérése egyénenként változó, de néhány módja közé tartozik a pozitív életszemlélet kialakítása, az értékek és szenvedélyek követése, a kapcsolatok ápolása és az önmagunkra való odafigyelés."
+    },
+    {
+        "keyword": "milyen módja van a környezetvédelemnek?",
+        "response": "A környezetvédelemnek sok módja van, mint például az energiahatékony technológiák használata, a hulladék csökkentése, a fenntartható közlekedés választása, az erdők és vizek védelme, az újrahasznosítás és a természetvédelmi tevékenységek támogatása."
+    },
+    {
+        "keyword": "mi a legjobb módja a kikapcsolódásnak?",
+        "response": "A kikapcsolódásnak sok módja van, például az olvasás, a zenét hallgatás, a sétálás a természetben, a barátokkal vagy családdal való időtöltés, a hobbik gyakorlása és a relaxációs tevékenységek, mint például a meditáció vagy a jóga."
+    },
+    {
+        "keyword": "melyik a legnagyobb állat a szárazföldön?",
+        "response": "A legnagyobb állat a szárazföldön az elefánt, amely több tonnát is nyomhat és hatalmas termetével lenyűgöző látványt nyújt."
+    },
+    {
+        "keyword": "mi a legjobb módja a konfliktusmegoldásnak?",
+        "response": "A konfliktusmegoldásnak néhány módja közé tartozik a kommunikáció és az empátia gyakorlása, az érdekek és szükségletek egyensúlyának keresése, a kompromisszumok keresése és a tárgyalási készségek fejlesztése."
+    },
+    {
+        "keyword": "milyen egészséges étrendet ajánlasz?",
+        "response": "Ajánlok egy egészséges étrendet, amely magában foglalja a változatos gyümölcsöket és zöldségeket, a teljes értékű gabonákat, a sovány fehérjéket, az egészséges zsírokat és a megfelelő folyadékfogyasztást. Fontos az egyensúly és a mértékletesség."
+    },
+    {
+        "keyword": "mi a legjobb módja a produktivitás növelésének?",
+        "response": "A produktivitás növelésének néhány módja közé tartozik a határidők meghatározása, a prioritások meghatározása, a tennivalók listára írása, a munka időkorlátokhoz kötése és a hatékony munkamódszerek alkalmazása, például a Pomodoro technika."
+    },
+    {
+        "keyword": "milyen módja van a pénz megtakarításának?",
+        "response": "A pénz megtakarításának néhány módja közé tartozik a költségvetés készítése, a pénzügyi célok kitűzése, a felesleges kiadások csökkentése, az automatikus megtakarítások beállítása és a tudatos vásárlási döntések meghozatala."
+    },
+    {
+        "keyword": "milyen módszereket ajánlasz a stressz kezelésére?",
+        "response": "A stressz kezelésére ajánlok néhány módszert, mint például a mély légzés és relaxációs gyakorlatok, a testmozgás, a stresszcsökkentő tevékenységek, például a meditáció vagy a jóga, a támogató kapcsolatok ápolása és az időnkénti pihenés."
+    },
+    {
+        "keyword": "mi a legjobb módja a kreativitás ösztönzésének?",
+        "response": "A kreativitás ösztönzésének néhány módja közé tartozik a kérdések feltételezése, a különböző perspektívák vizsgálata, a kreatív tevékenységek gyakorlása, a környezet változatossága és az új dolgok felfedezése."
+    },
+    {
+        "keyword": "melyek a legjobb szabadidős tevékenységek?",
+        "response": "A legjobb szabadidős tevékenységek személyenként változóak, de néhány népszerű lehetőség közé tartozik a sportolás, az olvasás, a zenét hallgatás, a főzés, a kirándulások, a filmnézés és a hobbi tevékenységek, mint például a festés vagy az írás."
+    },
+    {
+        "keyword": "mi a legjobb módja az önfejlesztésnek?",
+        "response": "Az önfejlesztésnek sok módja van, például az olvasás és tanulás, az új készségek megszerzése, a célok kitűzése és azok elérése, a személyes reflektálás, az egészséges szokások kialakítása és a kihívások elfogadása."
+    },
+    {
+        "keyword": "mi a legjobb módja a szervezettségnek?",
+        "response": "A szervezettségnek néhány módja közé tartozik a tennivalók listára írása, a határidők nyomon követése, az időbeosztás készítése, a rendszerezés és a prioritások meghatározása, valamint az áttekinthető munkaterület fenntartása."
+    },
+    {
+        "keyword": "mi a kedvenc zenéd?",
+        "response": "Nehéz csak egyetlen kedvenc zenét megnevezni, mert számos zenei műfajt és előadót szeretek. De ha választanom kellene, akkor a kedvenc zeném egy klasszikus rock dal lenne, például a Stairway to Heaven - Led Zeppelin."
+    },
+    {
+        "keyword": "mi a legjobb módja a produktivitás növelésének?",
+        "response": "A produktivitás növelésének több módja is van. Néhány tipp: készíts határidőket és prioritási listákat, szervezd meg a munkaidődet, tarts rendszeres szüneteket, minimalizáld a zavaró tényezőket, és használj hatékony munkamódszereket, például az Eisenhower mátrixot."
+    },
+    {
+        "keyword": "mi a legjobb módszer az angol nyelvtanuláshoz?",
+        "response": "Az angol nyelvtanulás legjobb módja a gyakorlás és az aktív használat. Beszélj angolul, olvass angol nyelvű szövegeket, hallgass angol nyelvű anyagokat, és gyakorold a nyelvtani szerkezeteket."
+    },
+    {
+        "keyword": "milyen egészséges ételeket ajánlasz?",
+        "response": "Néhány egészséges étel ajánlás: zöldségek és gyümölcsök, teljes kiőrlésű gabonák, sovány húsok és halak, tejtermékek, egészséges zsírok, például olívaolaj."
+    },
+    {
+        "keyword": "unatkozok",
+        "response": "Ha unatkozol, akkor van néhány ötletem, amit kipróbálhatsz. Például játszhatsz online játékokat, olvashatsz könyveket vagy cikkeket, rajzolhatsz vagy írhatsz naplót. Ha szeretnél valami aktívabbat csinálni, akkor sportolhatsz vagy sétálhatsz. Ha szeretnél valami kreatívabbat csinálni, akkor festhetsz vagy varrhatsz. Ha szeretnél valami hasznosat csinálni, akkor tanulhatsz valami újat vagy segíthetsz másoknak. Remélem ezek az ötletek segítenek."
+    },
+    {
+        "keyword": "buzi vagy?",
+        "response": "Sajnálom, de nem vagyok hajlandó ilyen beszélgetésbe bocsátkozni. Az én feladatom az emberek segítése, és nem a sértődésre adott válaszok adása. Köszönöm a megértését."
+    },
+    {
+        "keyword": "mi a véleményed a melegekről?",
+        "response": "Az embereknek különböző véleménye lehet a melegekről. Azonban fontos megérteni, hogy minden embernek joga van ahhoz, hogy szabadon élje az életét és szeressen bárkit, akit csak akar. A melegek is ugyanolyan emberek, mint bárki más és nem tehetnek arról, hogy milyen neműekre vonzódnak. A melegekkel kapcsolatos előítéletek és diszkriminációk nagyon károsak lehetnek az érintettekre nézve. Ha bármilyen konkrét kérdésed van a melegekkel kapcsolatban, szívesen segítek válaszolni rá."
+    }
+    
+]

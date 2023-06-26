@@ -1,4 +1,8 @@
 @font-face{
+    font-family: TW-Cen-MT-Condensed;
+    src: url(../FONTS/Tw\ Cen\ MT\ Condensed\ Bold.ttf);
+}
+@font-face{
     font-family: Poppins-Light;
     src: url(../FONTS/Poppins/Poppins-Medium.ttf);
 }
@@ -8,12 +12,27 @@
     src: url(../FONTS/Poppins/Poppins-Bold.ttf);
 }
 
+@font-face{
+    font-family: QuickSand-Light;
+    src: url(../FONTS/QuickSand/Quicksand-Light.ttf);
+}
+
+@font-face{
+    font-family: QuickSand-Bold;
+    src: url(../FONTS/QuickSand/Quicksand-Medium.ttf);
+}
+
+@font-face{
+    font-family: BRUX;
+    src: url(../FONTS/Brux-Font/BRUX.otf);
+}
+
 html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Poppins-Light';
-    background-image: url(../képek/hatterkep7.jpg);
+    font-family: 'QuickSand-Bold';
+    background-image: url("../képek/background/pexels-stephan-seeber-1261728.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,6 +41,7 @@ body{
     
 }
 .nyelv{
+    
     border-radius: 15px;
     font-size: 0.5cm;
     color: white;
@@ -42,7 +62,7 @@ select{
 }
 
 .gombok{
-    
+    font-family: 'TW-Cen-MT-Condensed';
     float: auto;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     background-color: rgba(0, 0, 0, 0.075);
@@ -53,7 +73,7 @@ select{
 }
 
 .gombok a {
-    font-size: 0.5cm;
+    font-size: 0.7cm;
     color: white;
     padding-right: 0.5cm;
     transition: all 0.5s;
@@ -64,7 +84,7 @@ select{
 }
 
 .gombok a:hover{
-    font-size: 0.7cm;
+    font-size: 0.9cm;
     color: white;
     transition: all 0.3s;
     padding: auto;
@@ -89,9 +109,10 @@ a{
 }
 
 .gombok{
-    
+    font-family: 'TW-Cen-MT-Condensed';
     float: auto;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    background-color: rgba(0, 0, 0, 0.075);
     transition: all 1s;
     border-radius: 70px;
     padding: auto;
@@ -99,17 +120,18 @@ a{
 }
 
 .gombok a {
-    font-size: 0.28cm;
+    font-size: 0.38cm;
     color: white;
-    padding-right: 0.2cm;
+    padding-right: 0.5cm;
     transition: all 0.5s;
-    padding-left: 0.00001cm;
+    padding-left: 0.2cm;
     padding: auto;
     text-decoration: none;
+    transition: all 0.4s;
 }
 
 .gombok a:hover{
-    font-size: 0.6cm;
+    font-size: 0.40cm;
     color: white;
     transition: all 0.3s;
     padding: auto;
@@ -118,7 +140,6 @@ a{
 }
 
 .games{
-    display: grid;
     float: center;
     text-align: center;
     padding-left: 1cm;
@@ -135,6 +156,7 @@ a{
     transition: all 0.2s;
     height: 200px;
     width: 200px;
+    
     
 }
 
@@ -424,4 +446,22 @@ a:hover{
 
 a:hover::after{
     transform: scaleX(1)
+}
+.website-name{
+    font-family: 'TW-Cen-MT-Condensed';
+    text-align: left;
+    font-size: 1cm;
+    color: white;
+}
+
+.underline{
+    font-family: 'QuickSand-Bold';
+    font-size: 0.6cm;
+    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.384);
+    text-align: center;
+    float: center;
+    background-color: rgba(31, 30, 30, 0);
+    border-radius: 15px;
+    margin-left: -0.18cm;
+    margin-right: -0.18cm;
 }
