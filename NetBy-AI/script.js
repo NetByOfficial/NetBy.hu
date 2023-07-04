@@ -12,6 +12,7 @@ fetch('commands.json')
             var command = commands.find(cmd => cmd.keyword === userInput.toLowerCase());
             if (command) {
                 output.innerHTML = command.response;
+                localStorage.setItem('chat', userInput)
             } else {
                 output.innerHTML = 'Sajnálom, nem értem a mondanivalóját. Tudok valamilyen más kérdésben segíteni?';
             }
@@ -29,3 +30,4 @@ fetch('commands.json')
         // Külső függvény hozzáférése
         window.processCommand = processCommand;
     });
+
