@@ -507,3 +507,45 @@ a:hover::after{
     margin-left: -0.18cm;
     margin-right: -0.18cm;
 }
+footer {
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    margin-right: 40px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-media-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .bottom-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+  
