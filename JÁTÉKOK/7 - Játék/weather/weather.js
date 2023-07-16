@@ -1,34 +1,33 @@
-// A weather.js fájl, amely adatokat szolgáltat a növénytermesztő játékhoz
+const weatherContainer = document.getElementById("weather-container");
+const weatherIcon = document.getElementById("weather-icon");
 
-// Létrehozunk egy objektumot, amelyben tároljuk az időjárás adatait
-const weather = {
-  temperature: 25, // Hőmérséklet Celsius fokban
-  humidity: 60, // Páratartalom százalékban
-  windSpeed: 10 // Szélsebesség kilométer per órában
-};
+// Az elérhető időjárás állapotok
+const weatherStatus = [
+  { isRaining: true, iconClass: "fa-cloud-showers-heavy" },
+  { isRaining: false, iconClass: "fa-sun" },
+  { isRaining: false, iconClass: "fa-cloud" },
+];
 
-// Az időjárás adatainak lekérése a megadott API-ból
-function fetchWeatherData(apiKey, latitude, longitude) {
-  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
+// Az aktuális időjárás állapot
+let currentWeatherIndex = 0;
 
-  fetch(apiUrl)
-    .then(response => response.json())
-    .then(data => {
-      weather.temperature = Math.round(data.main.temp - 273.15); // Az API által adott hőmérséklet átváltása Celsius fokba és kerekítése
-      weather.humidity = data.main.humidity;
-      weather.windSpeed = data.wind.speed;
-    })
-    .catch(error => console.error(error));
+function toggleWeather() {
+  currentWeatherIndex = Math.floor(Math.random() * weatherStatus.length);
+  const currentWeather = weatherStatus[currentWeatherIndex];
+  if (currentWeather.isRaining) {
+    weatherContainer.classList.add("rain");
+  } else {
+    weatherContainer.classList.remove("rain");
+  }
+  weatherIcon.classList.remove("fa-sun", "fa-cloud", "fa-cloud-showers-heavy");
+  weatherIcon.classList.add(currentWeather.iconClass);
+
+  console.log(`Az időjárás most ${currentWeather.isRaining ? "esős" : "napos"}.`);
 }
 
-// Az időjárás adatainak lekérése az API-ból 10 percenként
-setInterval(() => {
-  const apiKey = 'your-api-key'; // Az OpenWeatherMap API kulcsa
-  const latitude = 'your-latitude'; // A település szélességi foka
-  const longitude = 'your-longitude'; // A település hosszúsági foka
+// Az időjárás időzített változtatása
+setInterval(toggleWeather, 2400000); // 2400 másodperc = 40 perc
 
-  fetchWeatherData(apiKey, latitude, longitude);
-}, 600000); // 10 perc = 600000 mill másodperc
-
-// Az objektum exportálása, hogy elérhető legyen a növénytermesztő játékban
-export default weather;
+// Az időjárás gomb eseménykezelője
+const weatherBtn = document.getElementById("weather-btn");
+weatherBtn.addEventListener("click", toggleWeather);

@@ -1,0 +1,12 @@
+@font-face{
+    font-family: Poppins-Bold;
+    src: url(FONTS/Poppins/Poppins-Bold.ttf);
+}
+
+body{
+    font-family: 'Poppins-Bold';
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

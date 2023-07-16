@@ -29,7 +29,7 @@ function moveBeesToPlant() {
     let x = plant.offsetLeft - bee.offsetLeft;
     let y = plant.offsetTop - bee.offsetTop;
     let distance = Math.sqrt(x * x + y * y);
-    let speed = 100;
+    let speed = 45;
     let time = distance / speed;
     bee.style.transition = `transform ${time}s linear`;
     bee.style.transform = `translate(${x}px, ${y}px)`;
@@ -59,7 +59,7 @@ function waterPlant() {
         removePlantAndBees();
       }
     });
-  }, 100);
+  }, 500);
 }
 
 // Ellenőrzi, hogy az elemek ütköznek-e egymással

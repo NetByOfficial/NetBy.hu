@@ -1,25 +1,31 @@
-#weather {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  height: 5rem;
-  width: 5rem;
+.weather-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
 }
 
-#weather.raining {
-  animation: rain 0.5s linear infinite;
+.weather-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.rain::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2) 50%, transparent 50%);
+  background-size: 10px 10px;
+  animation: rain 0.2s linear infinite;
 }
 
 @keyframes rain {
-  0% {
-    transform: translateY(-10px);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
+  to {
+    background-position: 0 10px, 0 10px, 0 0, 0 0;
   }
 }

@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html onload="toggleWeather()">
 <head>
 	<title>Növény termesztős játék</title>
+	<!--CSS:-->
+	<link rel="stylesheet" href="fonts.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="weather/weather.css">
-	<script src="weather/weather.js"></script>
+
+	<script src="jquery.min.js"></script>
+	<script src="JsonIndito.js"></script>
+
 
 	<!--Ellenségek:-->
 
@@ -18,7 +22,9 @@
 	<link rel="stylesheet" href="">
 </head>
 
-<body>
+<body onload="startTimer()">
+	
+	<div id="season"></div>
 	
 	<div class="container">
 
@@ -27,37 +33,94 @@
 			<div id="plant-info" class="hidden">
 				<p id="plant-name"></p>
 				<p id="plant-date"></p>
+				
 			</div>
 			<div class="message">
+				<div class="novenykivalasztasa-hided" id="plant-type">
+					<h2>Válaszd ki a növényt</h2>
+					<button>Paradicsom<img src="Menü/Leltár/item/paradicsom/tomato.png" alt="" height="80" width="80"></button>
+					<button id="carrot_btn">Répa<img src="Menü/Leltár/item/répa/carrot.png" alt="" height="80" width="80"></button>
+
+				</div>
 				<div class="account_info">
 					<div id="username_here"></div>
 				</div>
 			<div class="menu">
 				<a href="Menü/Leltár">| Leltár |</a>
 				<a href="Menü/JátékBeállítások">| Mentés |</a>
+				<a href="Menü/bolt"> | Bolt |</a>
+				<a href="Menü/Account">| Fiók Információk |</a>
+				<a href="Menü/barátok">| Barátok |</a>
 			</div>
-				<p>Üdvözlünk a növénytermesztős játékban! Ültess és gondozz növényeket, majd takarítsd be a termést!</p>
+				<p>Üdvözlünk a növénytermesztős játékban!</p>
+				<p id="time-on-page"></p>
 				<button onclick="adatmentes()">Adatok Mentése</button>
 				<button onclick="adatbetoltes()">Adatok Betöltése</button>
 				<br>
+				<div class="season-diplay"></div>
 				<!--<p>Elvesztett Növények: <p id="lost_plant"></p></p> -->
 				<div class="btn-container">
 					
 					<button id="harvest-button">Betakarítás</button>
 					<button id="water-button" onclick="waterPlant()">Öntözés</button>
+						<div id="weather">
+			<!--<button id="weather-btn">Időjárás</button>
+
+
+			<div id="weather-container">
+			<i id="weather-icon" class="fas fa-sun"></i>
+			</div> -->
+					<!--<button id="novedelemBtn">Növény Védelem</button>-->
 				  </div>
-				  
+				  <br>
+	
+				<!--  <div id="termekContainer"></div>
+				  <br>
+				  <div id="novenyContainer"></div>
+				  <div id="novedelemSelect"></div>
+
+				 <div id="novedelemMenu">Növény Betegsége: </div> -->
 		</div>
+
 	</div>
 
+
+	<!--Plant Protect:-->
+
 	<script type="module" src="plant_info.js"></script>
+	<script src="plant_protect.js"></script>
+	
+	<!--Alap Script:-->
+
 	<script src="script.js"></script>
 	<script src="login register/script.js"></script>
 
-	<div id="weather">
-		<div class="weather-icon"></div>
-        <div class="weather-text"></div>
-		
+	<!--Évszakok:-->
+	<link rel="stylesheet" href="Évszakok/évszakok.css">
+	<script src="Évszakok/évszakok.js"></script>
+
+	
 	</div>
+	Testreszabás
+	<br>
+<label for="color-picker">Cserép színe:</label>
+<input type="color" id="color-picker" value="0">
+<div id="ceres"></div>
+
+		<!--Időjárás:-->
+		<!--<link rel="stylesheet" href="weather/weather.css">
+		<script src="weather/weather.js"></script>-->
+		<script src="uptime/uptime.js"></script>
+
+		<!--Testreszabás:-->
+		<script src="custom settings/custom.js"></script>
+
+		<!--Fontos Scriptek-->
+
+		<script src="important.js"></script>
+		
+		
+
+		<h2 class="v"></h2>
 </body>
 </html>

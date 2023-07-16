@@ -9,7 +9,7 @@ if (hour >= 20 || hour < 6) {
 } else {
   body.classList.add('day');
 }
-  
+  console.log(now)
 }, 2000); // 1000 ms = 1 sec
 
 
@@ -51,12 +51,24 @@ function plantSeed() {
   plant.classList.add("plant", "stage-1");
   this.appendChild(plant);
 
+
   // Update cell class
   this.classList.remove("empty");
-
+  // add plant name
+  const plantName = document.createElement("div");
+  plantName.classList.add("noveny_name")
+  plantName.textContent = "Répa";
+  plant.appendChild(plantName);
+  
   // Set current plant
   currentPlant = plant;
-   betakaritas()
+  
+
+
+  // select plant [tomato, carrot]
+  const plant_type = document.getElementById("plant-type");
+  plant_type.classList.add("novenykivalasztasa-hided")
+  plant_type.classList.remove("novenykivalasztasa")
   // Animate growth
   setTimeout(growPlant, 5000);
 }
@@ -65,15 +77,17 @@ function plantSeed() {
 function growPlant() {
   // Check if current plant exists
   if (!currentPlant) {
+    
     return;
   }
 
   // Update plant class
   currentPlant.classList.remove("stage-1");
   currentPlant.classList.add("stage-2");
-
+  betakaritando = true
+  
   // Animate growth
-  setTimeout(growPlant, 3000);
+  setTimeout(growPlant, 5000);
 }
 
 // Harvest plant function
@@ -86,18 +100,17 @@ function harvestPlant() {
   // Update plant class
   currentPlant.classList.remove("stage-2");
   currentPlant.classList.add("stage-3");
-betakaritando = true
+  
   // Reset current plant
   currentPlant = null;
-
+  alert("a növényed sikeresen betakarítva!");
   // Update cell class
   const cell = this.closest(".cell");
   cell.classList.add("empty");
 
   // Show message
-  showMessage("Növény betakarítva!");
-    
-  localStorage.setItem(gameState)
+  
+  
 }
 
 // Show message function
@@ -113,10 +126,14 @@ function showMessage(message) {
 
 // Add event listener to harvest button
 const harvestButton = document.querySelector("#harvest-button");
-if(betakaritando)
-{
-   harvestButton.addEventListener("click", harvestPlant); 
-}
+
+   harvestButton.addEventListener("click", () => {
+    if(betakaritando == true){
+      harvestPlant();
+    }
+    
+}); 
+
 
 
 // Víz gomb kiválasztása
@@ -189,35 +206,38 @@ class Plant {
       plant.water();
     }
   });
-  function adatmentes() {
-  const gameState = {
-    Cells: cells,
-    CurrentPlant: currentPlant,
-    Betakaritando: betakaritando,
-    GameBoard: gameboard,
-    PlantSeed: plantSeed,
-    Plants: plants,
-   };
-   
-   localStorage.setItem("gameState", JSON.stringify(gameState));
-   i = 0; i < 16; i++
-   let cell = document.querySelectorAll("#cells div");
-   const cellSaver = {
-     id: `${i}`, // Csak az ID-t tároljuk el
-     Cell: cell,
 
-   };
-   console.log(cell)
-   localStorage.setItem(`cell`, JSON.stringify(cellSaver));
-   
-   
-  }
-  //setInterval(adatmentes, 5000)// 5000 ms = 5s
+  function adatmentes() {
+    const gameState = {
+      Cells: cells,
+      CurrentPlant: currentPlant,
+      Betakaritando: betakaritando,
+      GameBoard: gameboard,
+      PlantSeed: plantSeed,
+      Plants: plants,
+     };
+     
+     localStorage.setItem("gameState", JSON.stringify(gameState));
+     let i = 0; i < 16; i++
+     let cell = document.querySelectorAll(`cell-${i}`);
+     const cellSaver = {
+       id: `${i}`, // Csak az ID-t tároljuk el
+       Cell: cell,
+  
+     };
+     console.log(cell)
+     localStorage.setItem(`cell`, JSON.stringify(cellSaver));
+     
+     alert("Hiba: Jelenleg az Adat mentés funkció nem mülködik!")
+
+    };
+
 
   // Játék állapotának betöltése a LocalStorage-ból
 function adatbetoltes() {
   const savedState = localStorage.getItem("gameState");
-  const SavedState_Cell = localStorage.getItem("cell-${i}");
+  let i = 0; i < 16; i++
+  const SavedState_Cell = localStorage.getItem(`cell-${i}`);
 
   if (savedState) {
     const gameState = JSON.parse(savedState);
@@ -227,11 +247,30 @@ function adatbetoltes() {
     gameboard     = gameState.GameBoard;
     plantSeed      = gameState.PlantSeed;
     plants         = gameState.Plants;
-  }
+    localStorage.setItem("gameState", gameState);
+  };
   if (SavedState_Cell) {
     const SavedState_Cell = JSON.parse("cellSaver");
     cell = SavedState_Cell.id;
     cell = SavedState_Cell.Cell;
     
-  }
+  };
+  alert("Adatok Betöltve")
+};
+
+//Plants ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function plantSeed_carrot() {
+ plantSeed();
 }
+
+const select_carrot_plant = document.getElementById(carrot_btn)
+
+carrot_btn.addEventListener('click', () => {
+plantSeed_carrot();
+})
+
+function adattorles() {
+  localStorage.clear();
+  window.location.href = "../../login register/index.html";
+}
+

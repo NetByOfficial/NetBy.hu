@@ -10,6 +10,7 @@
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 20px;
         margin: 50px;
+
       }
 
       /* Az inventory elemek stílusa */
