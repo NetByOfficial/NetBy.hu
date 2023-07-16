@@ -31,11 +31,11 @@
 
     {
         "keyword": "ki az a netby?",
-        "response": "NetBy egy tehetséges és sokoldalú szakember, aki számos területen kiválóan teljesít. Ő egy elismert webfejlesztő, aki izgalmas és funkcionális weboldalakat és alkalmazásokat hoz létre. Emellett kiváló programozóként ismerik, akinek képességei általában kiterjednek különböző programnyelvekre és technológiákra. NetBy emellett tehetséges videó szerkesztő, akinek képesítései lehetővé teszik, hogy professzionális színvonalú videókat hozzon létre. Kreatív és művészi érzékének köszönhetően képes olyan fényképeket készíteni, amelyek megörökítik a pillanat szépségét és érzelmét. Szintén jártas a zene készítés terén, tehetsége lehetővé teszi, hogy harmonikus dallamokat és zenei kompozíciókat alkosson. Ezen felül hangeffektusokat is létrehoz, amelyek segítségével életre kelti a hangokat és atmoszférát teremt a projektekben. NetBy törekvő és elkötelezett szakember, aki mindig készen áll, hogy a legjobb minőséget és kreatív megoldásokat nyújtsa a munkájában. Ő egy valódi sokoldalú tehetség, akinek szaktudása és szenvedélye a különböző területeken kiemelkedik."
+        "response": "NetBy egy tehetséges és sokoldalú ember, aki számos területen kiválóan teljesít. Ő egy elismert webfejlesztő, aki izgalmas és funkcionális weboldalakat és alkalmazásokat hoz létre. Emellett kiváló programozóként ismerik, akinek képességei általában kiterjednek különböző programnyelvekre és technológiákra. NetBy emellett tehetséges videó szerkesztő, akinek képesítései lehetővé teszik, hogy professzionális színvonalú videókat hozzon létre. Kreatív és művészi érzékének köszönhetően képes olyan fényképeket készíteni, amelyek megörökítik a pillanat szépségét és érzelmét. Szintén jártas a zene készítés terén, tehetsége lehetővé teszi, hogy harmonikus dallamokat és zenei kompozíciókat alkosson. Ezen felül hangeffektusokat is létrehoz, amelyek segítségével életre kelti a hangokat és atmoszférát teremt a projektekben. NetBy törekvő és elkötelezett ember, aki mindig készen áll, hogy a legjobb minőséget és kreatív megoldásokat nyújtsa a munkájában. Ő egy valódi sokoldalú tehetség, akinek szaktudása és szenvedélye a különböző területeken kiemelkedik."
     },
     {
         "keyword": "netby?",
-        "response": "NetBy egy tehetséges és sokoldalú szakember, aki számos területen kiválóan teljesít. Ő egy elismert webfejlesztő, aki izgalmas és funkcionális weboldalakat és alkalmazásokat hoz létre. Emellett kiváló programozóként ismerik, akinek képességei általában kiterjednek különböző programnyelvekre és technológiákra. NetBy emellett tehetséges videó szerkesztő, akinek képesítései lehetővé teszik, hogy professzionális színvonalú videókat hozzon létre. Kreatív és művészi érzékének köszönhetően képes olyan fényképeket készíteni, amelyek megörökítik a pillanat szépségét és érzelmét. Szintén jártas a zene készítés terén, tehetsége lehetővé teszi, hogy harmonikus dallamokat és zenei kompozíciókat alkosson. Ezen felül hangeffektusokat is létrehoz, amelyek segítségével életre kelti a hangokat és atmoszférát teremt a projektekben. NetBy törekvő és elkötelezett szakember, aki mindig készen áll, hogy a legjobb minőséget és kreatív megoldásokat nyújtsa a munkájában. Ő egy valódi sokoldalú tehetség, akinek szaktudása és szenvedélye a különböző területeken kiemelkedik."
+        "response": "NetBy egy tehetséges és sokoldalú ember, aki számos területen kiválóan teljesít. Ő egy elismert webfejlesztő, aki izgalmas és funkcionális weboldalakat és alkalmazásokat hoz létre. Emellett kiváló programozóként ismerik, akinek képességei általában kiterjednek különböző programnyelvekre és technológiákra. NetBy emellett tehetséges videó szerkesztő, akinek képesítései lehetővé teszik, hogy professzionális színvonalú videókat hozzon létre. Kreatív és művészi érzékének köszönhetően képes olyan fényképeket készíteni, amelyek megörökítik a pillanat szépségét és érzelmét. Szintén jártas a zene készítés terén, tehetsége lehetővé teszi, hogy harmonikus dallamokat és zenei kompozíciókat alkosson. Ezen felül hangeffektusokat is létrehoz, amelyek segítségével életre kelti a hangokat és atmoszférát teremt a projektekben. NetBy törekvő és elkötelezett ember, aki mindig készen áll, hogy a legjobb minőséget és kreatív megoldásokat nyújtsa a munkájában. Ő egy valódi sokoldalú tehetség, akinek szaktudása és szenvedélye a különböző területeken kiemelkedik."
     },
     {
         "keyword": "ki vagy te?",
@@ -432,6 +432,18 @@
     {
         "keyword": "mondj egy programozói viccet",
         "response": "Miért vesznek a programozók esernyőt? Mert mindig fennáll a lehetősége, hogy az adatok felhőbe szakadnak!"
+    },
+    {
+        "keyword": "mit csinálsz?",
+        "response": "Szia, én a NetBy-Ai vagyok. Én egy Ai vagyok, és itt vagyok, hogy segítsek neked információkat találni és kérdéseidre válaszolni. 😊"
+    },
+    {
+        "keyword": "micsi?",
+        "response": "Szia, én a NetBy-Ai vagyok. Én egy Ai vagyok, és itt vagyok, hogy segítsek neked információkat találni és kérdéseidre válaszolni. 😊"
+    },
+    {
+        "keyword": "hogy vagy?",
+        "response": "Köszönöm, hogy megkérdezted, de én egy számítógépes program vagyok, így nincs érzéseim. De örülök, hogy segíthetek neked információkat találni és kérdéseidre válaszolni. Van valami, amivel segíthetek?"
     }
  
 ]
