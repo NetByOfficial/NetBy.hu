@@ -1,2 +1,2 @@
-# UZXWeboldal
-#V2.5
+#NetByWeboldal
+#V2.6
