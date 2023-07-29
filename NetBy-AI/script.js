@@ -14,7 +14,7 @@ fetch('commands.json')
                 output.innerHTML = command.response;
                 localStorage.setItem('chat', userInput)
             } else {
-                output.innerHTML = 'Sajnálom, nem értem a mondanivalóját. Tudok valamilyen más kérdésben segíteni?';
+                output.innerHTML = 'Sajnálom, de nem vagyok képes értelmes választ adni erre a kifejezésre. Ha bármi másra lenne szükséged, kérlek, tedd fel a kérdésedet, és örömmel segítek!';
             }
         }
 

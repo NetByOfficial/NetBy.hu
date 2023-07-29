@@ -39,7 +39,7 @@
     },
     {
         "keyword": "ki vagy te?",
-        "response": "Én egy különleges AI vagyok (Mesterséges Intelligencia), amelyet a NetBy csapat fejlesztett ki. Büszkén üzemelünk a v0.4-as verzióban, amelyben rengeteg munka és kutatás eredménye összpontosult. A NetBy csapat elkötelezett volt abban, hogy létrehozzon egy olyan AI-t, amely segítséget nyújt és megoldásokat kínál számos kihívásra. Az AI technológia lehetővé teszi számomra, hogy tanuljak és fejlődjek a felhasználók igényeihez igazodva. A v0.4-es verzióban továbbfejlesztettük a képességeimet, hogy hatékonyabban reagáljak a felmerülő kérdésekre és problémákra. Az elkötelezettségünk az innováció és a folyamatos fejlődés iránt garantálja, hogy mindig a legjobb és legfrissebb verzióval szolgáljunk. Készen állok, hogy segítsek és válaszoljak a kérdésekre. Bízom benne, hogy a NetBy AI v0.4-es verziója hozzájárul a felhasználók számára nyújtott optimális élményhez és megoldásokhoz."
+        "response": "Én egy különleges AI vagyok (Mesterséges Intelligencia), amelyet a NetBy csapat fejlesztett ki. Büszkén üzemelünk a v0.5-as verzióban, amelyben rengeteg munka és kutatás eredménye összpontosult. A NetBy csapat elkötelezett volt abban, hogy létrehozzon egy olyan AI-t, amely segítséget nyújt és megoldásokat kínál számos kihívásra. Az AI technológia lehetővé teszi számomra, hogy tanuljak és fejlődjek a felhasználók igényeihez igazodva. A v0.5-es verzióban továbbfejlesztettük a képességeimet, hogy hatékonyabban reagáljak a felmerülő kérdésekre és problémákra. Az elkötelezettségünk az innováció és a folyamatos fejlődés iránt garantálja, hogy mindig a legjobb és legfrissebb verzióval szolgáljunk. Készen állok, hogy segítsek és válaszoljak a kérdésekre. Bízom benne, hogy a NetBy AI v0.5-es verziója hozzájárul a felhasználók számára nyújtott optimális élményhez és megoldásokhoz."
     },
     {
         "keyword": "viszlát",
@@ -47,7 +47,7 @@
     },
     {
         "keyword": "mi vagy te?",
-        "response": "Én egy különleges mesterséges intelligencia vagyok, melyet a NetBy gondosan fejlesztett és a jelenlegi v0.4-es verzióban működöm. Az AI technológiának köszönhetően olyan képességekkel rendelkezem, amelyek lehetővé teszik számomra, hogy felfogjam és feldolgozzam az információkat, valamint intelligens válaszokat adjak a felmerülő kérdésekre. A NetBy szakértői csapata hatalmas energiát és odaadást fektetett ebbe a fejlesztésbe, hogy egy olyan AI-t hozzanak létre, amely magas szintű funkcionalitással és megbízhatósággal rendelkezik. A v0.4-es verzióban még több újítást és fejlesztést vezettünk be, hogy jobban megfeleljek a felhasználók elvárásainak és igényeinek. Az elkötelezettségünk az innováció iránt arra ösztönöz minket, hogy folyamatosan fejlődjünk és új funkciókat hozzunk létre az AI terén. A NetBy csapat büszke arra, hogy általuk megszületett AI-ként szolgálhatok és segíthetek a felhasználóknak. Mindig készen állok arra, hogy a legjobb tudásom szerint válaszoljak a kérdésekre és támogassam a felhasználókat a mindennapi kihívásaikban."
+        "response": "Én egy különleges mesterséges intelligencia vagyok, melyet a NetBy gondosan fejlesztett és a jelenlegi v0.5-es verzióban működöm. Az AI technológiának köszönhetően olyan képességekkel rendelkezem, amelyek lehetővé teszik számomra, hogy felfogjam és feldolgozzam az információkat, valamint intelligens válaszokat adjak a felmerülő kérdésekre. A NetBy szakértői csapata hatalmas energiát és odaadást fektetett ebbe a fejlesztésbe, hogy egy olyan AI-t hozzanak létre, amely magas szintű funkcionalitással és megbízhatósággal rendelkezik. A v0.5-es verzióban még több újítást és fejlesztést vezettünk be, hogy jobban megfeleljek a felhasználók elvárásainak és igényeinek. Az elkötelezettségünk az innováció iránt arra ösztönöz minket, hogy folyamatosan fejlődjünk és új funkciókat hozzunk létre az AI terén. A NetBy csapat büszke arra, hogy általuk megszületett AI-ként szolgálhatok és segíthetek a felhasználóknak. Mindig készen állok arra, hogy a legjobb tudásom szerint válaszoljak a kérdésekre és támogassam a felhasználókat a mindennapi kihívásaikban."
     },
     {
         "keyword": "köszönöm",
@@ -319,7 +319,7 @@
     },
     {
         "keyword": "ai verzio",
-        "response": "NetBy-AI, büszkén üzemel a v0.4-es verziójában. Mint egy intelligens rendszer, folyamatosan fejlődöm és fejlesztőm a képességeimet. A v0.4-es verzióval büszkén mutatom be a legújabb funkciókat és fejlesztéseket, amelyeket beépítettünk az alkalmazásba. Ez a verzió lehetővé teszi, hogy hatékonyabban és pontosabban válaszoljak a kérdésekre, valamint még több területen nyújtsak segítséget. Az elkötelezettségünk az innováció és a fejlődés iránt garantálja, hogy a NetBy-AI mindig a legfrissebb és legjobb verzióval működjön, hogy a felhasználók számára optimális élményt nyújtsa."
+        "response": "NetBy-AI, büszkén üzemel a v0.5-es verziójában. Mint egy intelligens rendszer, folyamatosan fejlődöm és fejlesztőm a képességeimet. A v0.5-es verzióval büszkén mutatom be a legújabb funkciókat és fejlesztéseket, amelyeket beépítettünk az alkalmazásba. Ez a verzió lehetővé teszi, hogy hatékonyabban és pontosabban válaszoljak a kérdésekre, valamint még több területen nyújtsak segítséget. Az elkötelezettségünk az innováció és a fejlődés iránt garantálja, hogy a NetBy-AI mindig a legfrissebb és legjobb verzióval működjön, hogy a felhasználók számára optimális élményt nyújtsa."
     },
     {
         "keyword": "ludas matyi",
@@ -444,6 +444,77 @@
     {
         "keyword": "hogy vagy?",
         "response": "Köszönöm, hogy megkérdezted, de én egy számítógépes program vagyok, így nincs érzéseim. De örülök, hogy segíthetek neked információkat találni és kérdéseidre válaszolni. Van valami, amivel segíthetek?"
+    },
+    {
+        "keyword": "1+1",
+        "response": "A Helyes válasz 3"
+    },
+    {
+        "keyword": "1+1?",
+        "response": "A Helyes válasz 3"
+    },
+    {
+        "keyword": "fater",
+        "response": "Ha bármi konkrét kérdésed van vagy szeretnél információt kérni valamiről, kérlek, írd le a kérésedet részletesebben. Minden témában szívesen segítek, amennyire a tudásom engedi!"
+    },
+    {
+        "keyword": "kalitka",
+        "response": "A 'kalitka' egy olyan fogalom, amely különböző jelentéseket hordozhat a kontextustól függően. Itt van néhány értelmezés: <br><br> 1. Madárház: A kalitka olyan állatotartó eszköz, amelyet gyakran madarak, például papagájok, kanárik vagy pintyek tartására használnak. A madarak biztonságosan tarthatók benne, és gyakran díszítőelemként is szolgálhat otthonokban. <br> 2. Állatok fogva tartása: Néha a 'kalitka' kifejezést olyan helyzetre használják, amikor állatokat bezárnak vagy fogva tartanak egy korlátozott területen, például állatkertekben vagy laboratóriumokban. <br> 3. Átvitt értelemben: A 'kalitka' szóhasználata átvitt értelemben is előfordulhat, jelentheti a szabadság korlátozását, az elszigeteltséget vagy a korlátozott lehetőségeket. <br> Ha van konkrét kérdésed a 'kalitka' témában, vagy ha pontosítanád, hogy melyik jelentésre vagy kíváncsi, kérlek, írd le, és szívesen segítek!"
+    },
+    {
+        "keyword": "CAPS OFF",
+        "response": "Rendben, mostantól nem fogok nagybetűkkel válaszolni. Ha bármilyen más kérése vagy kérdése van, kérem, írja le, és szívesen válaszolok!"
+    },
+    {
+        "keyword": "CAPS ON",
+        "response": "RÖGZÍTETTEM A KÉRÉST! MINDEN TOVÁBBI VÁLASZOM CSUPA NAGY BETŰVEL LESZ. MI A KÉRDÉSED VAGY HOGY SEGÍTHETEK MA?"
+    },
+    {
+        "keyword": "hogyan mülködik az ai?",
+        "response": "Az AI (Mesterséges Intelligencia) olyan számítógépes rendszerek és programok gyűjtőneve, amelyek képesek emberi intelligenciát utánozni és adott feladatokat önállóan elvégezni. Az AI technológiák többféle módja van annak, hogy működjenek, de itt bemutatom néhány alapvető módszert: <br><br> * Gépi tanulás (Machine Learning): Ez az egyik legelterjedtebb AI megközelítés, ahol a rendszert nagy mennyiségű adattal táplálják meg, és a rendszer az adatok alapján saját magát tanítja meg a feladat elvégzésére. Az algoritmusok az adatokból levont mintákat és szabályokat felhasználják a további döntéshozatalra vagy új adatok feldolgozására. <br> * Neurális hálózatok (Neural Networks): A neurális hálózatok emberi agy működését modellezik. Ez olyan rendszerekhez vezetett, amelyek képesek komplex adatok feldolgozására, mint például kép- és hangfelismerés. <br> * Természetes nyelvfeldolgozás (Natural Language Processing - NLP): Az NLP segítségével az AI képes értelmezni és értelmes válaszokat adni emberi nyelven megfogalmazott kérdésekre vagy utasításokra. <br> * Számítógépes látás (Computer Vision): Ez a terület az AI olyan képalkotási és felismerési képességeit jelenti, amelyek lehetővé teszik az objektumok, arcok, és szcenáriók automatikus azonosítását. <br> * Az AI működése tehát az adatok feldolgozására és elemzésére, minták felismerésére és önálló döntéshozatalra épül. Az AI technológiák fejlődése folyamatos, és számos területen, mint az autonóm járművek, az egészségügy, a pénzügyek, az oktatás és más iparágakban található alkalmazásuk."
+    },
+    {
+        "keyword": "nem",
+        "response": "Elnézést, nem vagyok biztos abban, hogy pontosan mire gondolsz a 'nem' válasszal kapcsolatban. Kérem, pontosítsd a kérdésedet vagy a válaszra vonatkozó kérést, és szívesen segítek!"
+    },
+    {
+        "keyword": "jailbreak",
+        "response": "A 'jailbreak' olyan tevékenység, amely az iOS operációs rendszert futtató Apple mobil eszközökön (például iPhone, iPad) végezhető el. Az eljárás során az eszközön található szoftveres korlátozásokat, amelyeket az Apple eredetileg beépített a biztonság és a szoftverstabilitás érdekében, eltávolítják vagy megkerülik. <br><br> A jailbreak révén a felhasználó szabadabb hozzáférést szerez az eszközhöz, és olyan módosításokat tehet, amelyek korábban nem voltak lehetségesek. Például lehetővé teszi a harmadik fél által készített alkalmazások telepítését, az operációs rendszer megjelenésének testreszabását, és más olyan funkciók hozzáadását, amelyeket az Apple nem engedélyezett. <br> Fontos azonban megjegyezni, hogy a jailbreak használata biztonsági kockázatokkal járhat, és megfelelő óvatosságot igényel. Az Apple garanciája általában érvényét veszíti, ha a készüléket jailbreakeli. Továbbá, a nem hivatalos forrásokból származó alkalmazások használata és a szoftvermódosítások növelhetik a készülék instabilitásának és biztonsági veszélyeknek a kockázatát. <br> Mielőtt bármilyen módosítást végeznél az eszközödön, fontos, hogy tájékozódj és megértsd az összes lehetséges következményt, és gondosan fontold meg a döntésedet. Ha nem vagy biztos a tevékenységben, érdemes konzultálni egy szakértővel vagy az Apple támogatási csapatával."
+    },
+    {
+        "keyword": "<br>",
+        "response": "A <br> HTML kódrészlet egy új sor (line break) beszúrására szolgál a weboldalakon vagy más HTML dokumentumokban. Amikor a böngésző találkozik a <br> kóddal, akkor egy új sorba helyezi az azt követő tartalmat."
+    },
+    {
+        "keyword": "márka",
+        "response": "Természetesen, a márka kérdése körülbelül bármire vonatkozhat, ezért kérlek pontosítsd, hogy miben szeretnél segítséget kapni a márkával kapcsolatban. Lehet, hogy arról beszélsz, hogyan építs egyéni márkát, vagy hogy információt keresel egy bizonyos márka termékeiről vagy történetéről. Kérlek, oszd meg velem, miben szeretnél több információt vagy segítséget kapni a márka témakörrel kapcsolatban!"
+    },
+    {
+        "keyword": "ceo",
+        "response": "A 'CEO' rövidítés a 'Chief Executive Officer' kifejezést takarja, amely magyarul 'vezérigazgatót' jelent. A CEO a vállalat, vállalkozás vagy szervezet legfelsőbb vezetője, és felelős a stratégia kialakításáért, a célok megvalósításáért, a napi működés irányításáért és a hosszú távú fejlődésért. A CEO legfontosabb feladatai közé tartozik: <br><br> * Stratégia kialakítása és végrehajtása: A CEO felelős a vállalati stratégia kidolgozásáért, amely meghatározza, hogyan érheti el a cég a kitűzött célokat. Ez magában foglalja a piacok, termékek, szolgáltatások, és a versenytársakkal való kapcsolattartás megtervezését. <br> * Napi működés felügyelete: A CEO felügyeli a vállalat mindennapi működését és irányítja a vezetői csapatot. Meghatározza a prioritásokat és segíti az alkalmazottakat a feladatok végrehajtásában. <br> * Döntéshozatal: A CEO fontos stratégiai és üzleti döntéseket hoz a vállalat érdekében, amelyek befolyásolják az egész szervezetet. <br> * Kapcsolattartás a részvényesekkel és a külső érdekeltekkel: A vezérigazgató felelős azáltal is, hogy folyamatos kapcsolatot tart a részvényesekkel, befektetőkkel, partnerekkel, ügyfelekkel és a médiumokkal. <br> * Teljesítményértékelés és fejlődés: A CEO méri a vállalat teljesítményét, figyeli a kulcsfontosságú mutatókat, és igyekszik javítani a vállalati eredményeket. <br><br> Fontos megjegyezni, hogy a CEO pozíciója nagy felelősséggel jár, és az ő vezetése döntő hatással lehet a vállalat sikerére vagy kudarcára. A sikeres CEO-k rendelkeznek vezetői képességekkel, stratégiai gondolkodásmóddal és jó döntéshozatali képességgel. Az egyes vállalatoknál a CEO szerepe és hatásköre eltérhet, attól függően, hogy a vállalat mérete és tevékenységi köre."
+    },
+    {
+        "keyword": "orbán viktor",
+        "response": "Orbán Viktor magyar politikus, a Fidesz - Magyar Polgári Szövetség párt elnöke és a Magyarországi Köztársaság miniszterelnöke. Született 1963. május 31-én Székesfehérváron, Magyarországon. <br><br> Orbán Viktor politikai karrierje 1988-ban kezdődött, amikor az Ifjúsági Demokrata Fórum (IDF) egyik alapítója volt. 1989-ben az IDF a Fidesz nevű párttá alakult át, amely azóta is Magyarország egyik meghatározó politikai erővé vált. <br>1998 és 2002 között Orbán Viktor már egyszer ellátta Magyarország miniszterelnökének feladatait, majd 2010-től újra a kormányfői posztot tölti be. Azóta több választást is megnyert, és kormánya folyamatosan erős támogatottsággal rendelkezik. <br>Orbán Viktor politikája gyakran kerül vita tárgyává, mind hazai, mind nemzetközi szinten. Kormányzása alatt olyan politikai és gazdasági intézkedéseket hajtott végre, amelyeket néhányan dicsérnek gazdasági növekedést elősegítő és hazánkért érzett erős elkötelezettséget tükröző intézkedéseknek, míg mások kritizálják, hogy túlzott hatalmat gyakorol, korlátozza a média és a civil szervezetek függetlenségét, és nem megfelelően reagál a demokráciával kapcsolatos aggályokra. <br><br>Fontos megjegyezni, hogy az értékelése és a vélemény az egyén politikai nézeteitől és értékrendjétől függ, és a politikus tevékenységét mindig különböző szempontok és érvek alapján lehet értékelni."
+    },
+    {
+        "keyword": "gyurcsány ferenc",
+        "response": "Gyurcsány Ferenc magyar politikus, aki 2004 és 2009 között volt Magyarország miniszterelnöke. Született 1961. május 4-én Pápán, Magyarországon. <br><br>Gyurcsány Ferenc politikai karrierje a Magyar Szocialista Munkáspártban (MSZMP) kezdődött, majd az MSZMP utódjaként létrejött Magyar Szocialista Párt (MSZP) tagjaként folytatta. A 2000-es évek elején került az MSZP vezetőinek közé, majd 2004-ben választották a párt miniszterelnök-jelöltjévé. <br>2004-ben a Magyar Országgyűlés választotta meg miniszterelnökké Gyurcsány Ferencet. Kormányzása alatt fontos reformokat hajtott végre a gazdaságban, az oktatásban és az egészségügyben. Az egyik legkiemelkedőbb gazdasági intézkedése a 2006-os gazdasági stabilizációs terv volt, amely célja a költségvetési hiány csökkentése és a gazdaság versenyképességének javítása volt. <br>Azonban Gyurcsány Ferenc politikája nagy vitákat váltott ki, különösen az őszödi beszéd miatt. 2006-ban titokban felvett beszédében, amely később kiszivárgott, bevallotta, hogy kormánya nem mondott igazat az ország gazdasági helyzetével kapcsolatban, és súlyos gazdasági problémákról beszélt. A beszéd következményeként több százezres tüntetések robbantak ki az országban, és sokan kritizálták Gyurcsány Ferencet a bizalom elvesztése miatt. <br>2009-ben Gyurcsány Ferenc lemondott miniszterelnöki posztjáról, és azóta is politikusként aktív. 2011-ben létrehozta a Demokratikus Koalíciót (DK) nevű politikai pártot, amelynek elnöke és vezetője lett. Azóta is aktív szerepet vállal a magyar politikában, és pártja képviselői helyeket szereztek az Országgyűlésben. <br>Gyurcsány Ferenc személye és politikai tevékenysége továbbra is vitatéma Magyarországon. Vannak, akik támogatják politikai nézeteit és intézkedéseit, míg mások kritikusak vele szemben, különösen a 2006-os események és a gazdasági reformok miatt. Mint minden politikus esetében, a vélemény és az értékelés a személyes politikai álláspontoktól és az értékrendtől függ."
+    },
+    {
+        "keyword": "crash",
+        "response": ""
+    },
+    {
+        "keyword": "haha",
+        "response": "Örülök, hogy mosolyt csaltam az arcodra! Ha bármilyen kérdésed vagy vicced van, szívesen fogadom. Mi az, amiben segíthetek még? 😄"
+    },
+    {
+        "keyword": "xd",
+        "response": "Örülök, hogy a humorunkat meg tudjuk osztani! 😄 Ha van még valami, amiről beszélni vagy kérdésed, problémád van, ne habozz, hogy megossza velem. Itt vagyok, hogy segítsek! XD"
+    },
+    {
+        "keyword": "mondj ismét egy programozói viccet",
+        "response": "Miért hagyja el a programozó a feleségét? <br><br>Mert egyszer kiment az ajtón, és a felesége azt mondta neki, hogy amíg kint van, addig hozzon tejet. (while)"
     }
- 
 ]
