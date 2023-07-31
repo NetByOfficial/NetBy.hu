@@ -102,6 +102,8 @@ select{
     border-radius: 70px;
     padding: auto;
     text-align: left;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gombok a {
