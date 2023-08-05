@@ -26,9 +26,9 @@ body {
 }
 
 .image-setup img{
-    
-    height: 260px;
-    width: 260px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    height: 250px;
+    width: 280px;
     margin-bottom: -14cm;
     margin-left: -13.4cm;
     border-radius: 12px;
