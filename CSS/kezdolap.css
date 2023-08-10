@@ -40,6 +40,21 @@ body{
 
     
 }
+
+.kuldott-kepet img{
+    height: 150px;
+    border-radius: 9px;
+    margin-left: 0.01cm;
+    float: left;
+    text-align: left;
+    margin-top: 1cm;
+}
+.kuldott-kepet p{
+    color: white;
+    float: left;
+    margin-left: -4.2cm;
+    margin-top: 5.1cm;
+}
 .nyelv{
     
     border-radius: 15px;
