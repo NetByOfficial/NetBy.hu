@@ -1,2 +1,2 @@
 #NetByWeboldal
-#V2.6
+#V2.7

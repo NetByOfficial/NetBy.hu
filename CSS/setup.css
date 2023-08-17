@@ -28,9 +28,9 @@ body {
 .image-setup img{
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     height: 250px;
-    width: 280px;
+    width: 180px;
     margin-bottom: -14cm;
-    margin-left: -13.4cm;
+    margin-left: -12.4cm;
     border-radius: 12px;
 }
 
@@ -182,10 +182,10 @@ body {
 
     .image-setup img{
     
-        height: 240px;
-        width: 240px;
-        margin-bottom: -6.5cm;
-        margin-left: 2.8cm;
+        height: 190px;
+        width: 160px;
+        margin-bottom: -4.8cm;
+        margin-left: 3.4cm;
         border-radius: 12px;
         transition: all 0.4s;
     }
