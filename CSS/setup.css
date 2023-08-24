@@ -33,7 +33,7 @@ body {
     margin-left: -12.4cm;
     border-radius: 12px;
 }
-
+.case,
 .cpu,
 .ram,
 .gpu,
@@ -43,7 +43,7 @@ body {
     transition: background-color 0.4s, transform 0.4s;
     border-radius: 25px;
 }
-
+.case:hover,
 .cpu:hover,
 .ram:hover,
 .gpu:hover,
