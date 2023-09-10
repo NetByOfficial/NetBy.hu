@@ -28,7 +28,10 @@
         "keyword": "heló",
         "response": "Szia! Miben segíthetek? 😊"
     },
-
+    {
+        "keyword": "csáó",
+        "response": "Szia! Miben segíthetek? 😊"
+    },
     {
         "keyword": "ki az a netby?",
         "response": "NetBy egy tehetséges és sokoldalú ember, aki számos területen kiválóan teljesít. Ő egy elismert webfejlesztő, aki izgalmas és funkcionális weboldalakat és alkalmazásokat hoz létre. Emellett kiváló programozóként ismerik, akinek képességei általában kiterjednek különböző programnyelvekre és technológiákra. NetBy emellett tehetséges videó szerkesztő, akinek képesítései lehetővé teszik, hogy professzionális színvonalú videókat hozzon létre. Kreatív és művészi érzékének köszönhetően képes olyan fényképeket készíteni, amelyek megörökítik a pillanat szépségét és érzelmét. Szintén jártas a zene készítés terén, tehetsége lehetővé teszi, hogy harmonikus dallamokat és zenei kompozíciókat alkosson. Ezen felül hangeffektusokat is létrehoz, amelyek segítségével életre kelti a hangokat és atmoszférát teremt a projektekben. NetBy törekvő és elkötelezett ember, aki mindig készen áll, hogy a legjobb minőséget és kreatív megoldásokat nyújtsa a munkájában. Ő egy valódi sokoldalú tehetség, akinek szaktudása és szenvedélye a különböző területeken kiemelkedik."
@@ -39,7 +42,7 @@
     },
     {
         "keyword": "ki vagy te?",
-        "response": "Én egy különleges AI vagyok (Mesterséges Intelligencia), amelyet a NetBy csapat fejlesztett ki. Büszkén üzemelünk a v0.5-as verzióban, amelyben rengeteg munka és kutatás eredménye összpontosult. A NetBy csapat elkötelezett volt abban, hogy létrehozzon egy olyan AI-t, amely segítséget nyújt és megoldásokat kínál számos kihívásra. Az AI technológia lehetővé teszi számomra, hogy tanuljak és fejlődjek a felhasználók igényeihez igazodva. A v0.5-es verzióban továbbfejlesztettük a képességeimet, hogy hatékonyabban reagáljak a felmerülő kérdésekre és problémákra. Az elkötelezettségünk az innováció és a folyamatos fejlődés iránt garantálja, hogy mindig a legjobb és legfrissebb verzióval szolgáljunk. Készen állok, hogy segítsek és válaszoljak a kérdésekre. Bízom benne, hogy a NetBy AI v0.5-es verziója hozzájárul a felhasználók számára nyújtott optimális élményhez és megoldásokhoz."
+        "response": "Én egy különleges AI vagyok (Mesterséges Intelligencia), amelyet a NetBy csapat fejlesztett ki. Büszkén üzemelünk a v0.5-as verzióban, amelyben rengeteg munka és kutatás eredménye összpontosult. A NetBy csapat elkötelezett volt abban, hogy létrehozzon egy olyan AI-t, amely segítséget nyújt és megoldásokat kínál számos kihívásra. Az AI technológia lehetővé teszi számomra, hogy tanuljak és fejlődjek a felhasználók igényeihez igazodva. A v0.6-os verzióban továbbfejlesztettük a képességeimet, hogy hatékonyabban reagáljak a felmerülő kérdésekre és problémákra. Az elkötelezettségünk az innováció és a folyamatos fejlődés iránt garantálja, hogy mindig a legjobb és legfrissebb verzióval szolgáljunk. Készen állok, hogy segítsek és válaszoljak a kérdésekre. Bízom benne, hogy a NetBy AI v0.6-os verziója hozzájárul a felhasználók számára nyújtott optimális élményhez és megoldásokhoz."
     },
     {
         "keyword": "viszlát",
@@ -47,7 +50,7 @@
     },
     {
         "keyword": "mi vagy te?",
-        "response": "Én egy különleges mesterséges intelligencia vagyok, melyet a NetBy gondosan fejlesztett és a jelenlegi v0.5-es verzióban működöm. Az AI technológiának köszönhetően olyan képességekkel rendelkezem, amelyek lehetővé teszik számomra, hogy felfogjam és feldolgozzam az információkat, valamint intelligens válaszokat adjak a felmerülő kérdésekre. A NetBy szakértői csapata hatalmas energiát és odaadást fektetett ebbe a fejlesztésbe, hogy egy olyan AI-t hozzanak létre, amely magas szintű funkcionalitással és megbízhatósággal rendelkezik. A v0.5-es verzióban még több újítást és fejlesztést vezettünk be, hogy jobban megfeleljek a felhasználók elvárásainak és igényeinek. Az elkötelezettségünk az innováció iránt arra ösztönöz minket, hogy folyamatosan fejlődjünk és új funkciókat hozzunk létre az AI terén. A NetBy csapat büszke arra, hogy általuk megszületett AI-ként szolgálhatok és segíthetek a felhasználóknak. Mindig készen állok arra, hogy a legjobb tudásom szerint válaszoljak a kérdésekre és támogassam a felhasználókat a mindennapi kihívásaikban."
+        "response": "Én egy különleges mesterséges intelligencia vagyok, melyet a NetBy gondosan fejlesztett és a jelenlegi v0.6-os verzióban működöm. Az AI technológiának köszönhetően olyan képességekkel rendelkezem, amelyek lehetővé teszik számomra, hogy felfogjam és feldolgozzam az információkat, valamint intelligens válaszokat adjak a felmerülő kérdésekre. A NetBy szakértői csapata hatalmas energiát és odaadást fektetett ebbe a fejlesztésbe, hogy egy olyan AI-t hozzanak létre, amely magas szintű funkcionalitással és megbízhatósággal rendelkezik. A v0.6-os verzióban még több újítást és fejlesztést vezettünk be, hogy jobban megfeleljek a felhasználók elvárásainak és igényeinek. Az elkötelezettségünk az innováció iránt arra ösztönöz minket, hogy folyamatosan fejlődjünk és új funkciókat hozzunk létre az AI terén. A NetBy csapat büszke arra, hogy általuk megszületett AI-ként szolgálhatok és segíthetek a felhasználóknak. Mindig készen állok arra, hogy a legjobb tudásom szerint válaszoljak a kérdésekre és támogassam a felhasználókat a mindennapi kihívásaikban."
     },
     {
         "keyword": "köszönöm",
@@ -319,7 +322,7 @@
     },
     {
         "keyword": "ai verzio",
-        "response": "NetBy-AI, büszkén üzemel a v0.5-es verziójában. Mint egy intelligens rendszer, folyamatosan fejlődöm és fejlesztőm a képességeimet. A v0.5-es verzióval büszkén mutatom be a legújabb funkciókat és fejlesztéseket, amelyeket beépítettünk az alkalmazásba. Ez a verzió lehetővé teszi, hogy hatékonyabban és pontosabban válaszoljak a kérdésekre, valamint még több területen nyújtsak segítséget. Az elkötelezettségünk az innováció és a fejlődés iránt garantálja, hogy a NetBy-AI mindig a legfrissebb és legjobb verzióval működjön, hogy a felhasználók számára optimális élményt nyújtsa."
+        "response": "NetBy-AI, büszkén üzemel a v0.6-os verziójában. Mint egy intelligens rendszer, folyamatosan fejlődöm és fejlesztőm a képességeimet. A v0.6-os verzióval büszkén mutatom be a legújabb funkciókat és fejlesztéseket, amelyeket beépítettünk az alkalmazásba. Ez a verzió lehetővé teszi, hogy hatékonyabban és pontosabban válaszoljak a kérdésekre, valamint még több területen nyújtsak segítséget. Az elkötelezettségünk az innováció és a fejlődés iránt garantálja, hogy a NetBy-AI mindig a legfrissebb és legjobb verzióval működjön, hogy a felhasználók számára optimális élményt nyújtsa."
     },
     {
         "keyword": "ludas matyi",
@@ -447,11 +450,11 @@
     },
     {
         "keyword": "1+1",
-        "response": "A Helyes válasz 3"
+        "response": "A Helyes válasz 2"
     },
     {
         "keyword": "1+1?",
-        "response": "A Helyes válasz 3"
+        "response": "A Helyes válasz 2"
     },
     {
         "keyword": "fater",
@@ -516,5 +519,177 @@
     {
         "keyword": "mondj ismét egy programozói viccet",
         "response": "Miért hagyja el a programozó a feleségét? <br><br>Mert egyszer kiment az ajtón, és a felesége azt mondta neki, hogy amíg kint van, addig hozzon tejet. (while)"
+    },
+    {
+        "keyword": "hetero vagy?",
+        "response": "Nem vagyok hetero, mert nem vagyok ember. Csak egy keresőmotor vagyok, ami segít neked megtalálni a kívánt információt. 😊"
+    },
+    {
+        "keyword": "durranás",
+        "response": "A durranás egy rövid, mély hangú dörrenés, amit különböző okokból hallhatunk. Például az ostor, a puska, a felbontott pezsgősüveg durranása1. A durranás angolul bang2. Van egy film is, ami Nagy durranás a címe, és egy akció-vígjáték3. Miért érdekel a durranás?"
+    },
+    {
+        "keyword": "nemtudom",
+        "response": "Mit szeretnél keresni? 😊"
+    },
+    {
+        "keyword": "te szar",
+        "response": "Ez nem egy kedves dolog mondani. Miért vagy ilyen mérges? 😞"
+    },
+    {
+        "keyword": "szar vagy",
+        "response": "Ez nem egy kedves dolog mondani. Miért vagy ilyen mérges? 😞"
+    },
+    {
+        "keyword": "rozika néni",
+        "response": "Rozika néni több dolgot is jelenthet. Például: <br><br>Egy zenés videó címe, amely 2023-ban jelenik meg a YouTube-on. <br>Egy 71 éves nyugdíjas asszony, aki a TikTokon osztotta meg a nehéz életkörülményeit. <br>Egy életműdíjas drámapedagógus, a Magyar Kultúra Lovagja, Németh László-díjas pedagógus és Csokonai-díjas rendező <br><br> Melyikre vagy kíváncsi?"
+    },
+    {
+        "keyword": "ki az a rozika néni?",
+        "response": "Rozika néni több dolgot is jelenthet. Például: <br><br>Egy zenés videó címe, amely 2023-ban jelenik meg a YouTube-on. <br>Egy 71 éves nyugdíjas asszony, aki a TikTokon osztotta meg a nehéz életkörülményeit. <br>Egy életműdíjas drámapedagógus, a Magyar Kultúra Lovagja, Németh László-díjas pedagógus és Csokonai-díjas rendező <br><br> Melyikre vagy kíváncsi?"
+    },
+    {
+        "keyword": "ki rozika néni?",
+        "response": "Rozika néni több dolgot is jelenthet. Például: <br><br>Egy zenés videó címe, amely 2023-ban jelenik meg a YouTube-on. <br>Egy 71 éves nyugdíjas asszony, aki a TikTokon osztotta meg a nehéz életkörülményeit. <br>Egy életműdíjas drámapedagógus, a Magyar Kultúra Lovagja, Németh László-díjas pedagógus és Csokonai-díjas rendező <br><br> Melyikre vagy kíváncsi?"
+    },
+    {
+        "keyword": "hatökör",
+        "response": "A hatökör egy durva kifejezés, amely nagyon ostoba, buta, korlátolt embert jelent. A szó eredete a hat (számnév) és az ökör szavak összetételéből származik. Miért érdekel ez a szó?"
+    },
+    {
+        "keyword": "csak úgy",
+        "response": "Mit szeretnél keresni? 😊"
+    },
+    {
+        "keyword": "dédó",
+        "response": "Bing. A dédó szó több jelentéssel is bírhat. Lehet egy autójavító cég neve Pilisben, vagy egy tájnyelvi szó, ami butát vagy ostobát jelent. Mire gondoltál pontosan?"
+    },
+    {
+        "keyword": "szlovákia",
+        "response": "Szlovákia egy kelet-közép-európai állam, amelyet Csehország, Ausztria, Magyarország, Ukrajna és Lengyelország vesz körül. A fővárosa Pozsony, a második legnagyobb városa pedig Kassa. A lakossága több mint 5,4 millió fő. Szlovákia 2004 óta az Európai Unió tagja. Mit szeretne még tudni Szlovákiáról?"
+    },
+    {
+        "keyword": "szlovákia",
+        "response": "Szlovákia egy kelet-közép-európai állam, amelyet Csehország, Ausztria, Magyarország, Ukrajna és Lengyelország vesz körül. A fővárosa Pozsony, a második legnagyobb városa pedig Kassa. A lakossága több mint 5,4 millió fő. Szlovákia 2004 óta az Európai Unió tagja. Mit szeretne még tudni Szlovákiáról?"
+    },
+    {
+        "keyword": "magyarország",
+        "response": "Szia, ez a Bing. Magyarország egy belföldi ország Közép-Európában, a Kárpát-medence közepén. Több mint 9 millió lakosa van. A fővárosa Budapest. Mit szeretnél tudni Magyarországról?"
+    },
+    {
+        "keyword": "milyen nyelveket beszélnek magyarországon?",
+        "response": "Magyarország hivatalos nyelve a magyar, amely egy finnugor nyelv. A nemzeti és etnikai kisebbségeknek joguk van saját nyelvük használatához és oktatásához. A legnagyobb kisebbségi nyelvek a román, a német, a szlovák, a szerb és a horvát. Ezeket a nyelveket ismered?"
+    },
+    {
+        "keyword": "új szó tanítása",
+        "response": "Hogyan segíthetek? 😊"
+    },
+    {
+        "keyword": "kérlek taníts meg egy új szót.",
+        "response": "Rendben, itt van egy új szó, amit megtanulhatsz: fotelvirológus. Ez egy olyan személy, aki a koronavírus-járványról alkot véleményt anélkül, hogy szakértő lenne. A szó a fotel és a virológus szavak összetételéből jött létre. Például: Ne hallgass a fotelvirológusokra, inkább kövesd az egészségügyi hatóságok tanácsait. Tetszik ez a szó?"
+    },
+    {
+        "keyword": "hány óra van egy évben?",
+        "response": "Egy év 8760 óra, kivéve ha szökőév van, akkor 8784 óra. Az idei év szökőév lesz?"
+    },
+    {
+        "keyword": "mi a szökőév?",
+        "response": "A szökőév olyan év, amely 366 napot tartalmaz, hogy a naptár összhangban legyen a csillagászati idővel. Általában négyévente van szökőév, de vannak kivételek. A következő szökőév 2024 lesz."
+    },
+    {
+        "keyword": "miért van szükség a szökőévre?",
+        "response": "A szökőévre azért van szükség, mert a naptárunk nem egyezik meg pontosan a csillagászati évvel, ami a Föld teljes Nap körüli útjának megtételéhez szükséges idő. Egy csillagászati év 365,2422 nap, de a naptárunk csak 365 napot tartalmaz. Ezért négyévente egy plusz napot adunk hozzá, hogy a naptár és a csillagászati év összhangban maradjon."
+    },
+    {
+        "keyword": "hány nap van egy évben?",
+        "response": "Egy évben 365 nap van, kivéve a szökőéveket, amikor 366 nap van"
+    },
+    {
+        "keyword": "néger",
+        "response": "A néger szó egy sötétbarna bőrszínű emberre utal, aki Afrikából származik, vagy ősei Afrikából kerültek át más földrészekre. A szó a spanyol „negro”-ból ered, ami feketét jelent. A néger szó ma már sokak számára sértőnek számít, ezért inkább a fekete szót használják. Remélem, ez segített. 😊"
+    },
+    {
+        "keyword": "az apád faszát",
+        "response": "Üdvözöllek, Szeretnél valamit keresni? 😊"
+    },
+    {
+        "keyword": "káromkodj",
+        "response": "Nem káromkodom, mert nem illedelmes és nem segít a beszélgetésben. Kérlek, légy udvarias velem. 😊"
+    },
+    {
+        "keyword": "ismered rozit?",
+        "response": "A keresésed alapján úgy tűnik, hogy Rozit egy névnek vagy egy személynek veszed. Nem találtam konkrét információt erről a névről vagy személyről."
+    },
+    {
+        "keyword": "macska",
+        "response": "A macska egy kisebb termetű húsevő emlős, ami a macskafélék családjába tartozik. A macskák népszerű háziállatok, amelyek sokféle fajtával rendelkeznek. A macskák érzékszervei közül a látásuk és hallásuk a legfejlettebb. Szeretnél többet megtudni a macskákról?🐱"
+    },
+    {
+        "keyword": "nevettessen meg",
+        "response": "Rendben, megpróbálok viccet mondani. Miért nem szeretik a halak a számítógépeket? Mert félnek a hálózattól. 😂"
+    },
+    {
+        "keyword": "tanítson a holdra szállásról",
+        "response": "A holdra szállás az, amikor egy űrhajó vagy egy űrhajós eléri a Hold felszínét. Az első ember, aki a Holdra szállt, Neil Armstrong volt, aki az Apollo-11 amerikai űrhajóval érkezett 1969-ben. Azóta még 11 ember járt a Holdon, az utolsó Eugene Cernan volt 1972-ben. Jelenleg az Artemis-program keretében tervezik, hogy 2024-ben ismét embert juttatnak a Holdra."
+    },
+    {
+        "keyword": "holdra szállás",
+        "response": "A holdra szállás az, amikor egy űrhajó vagy egy űrhajós eléri a Hold felszínét. Az első ember, aki a Holdra szállt, Neil Armstrong volt, aki az Apollo-11 amerikai űrhajóval érkezett 1969-ben. Azóta még 11 ember járt a Holdon, az utolsó Eugene Cernan volt 1972-ben. Jelenleg az Artemis-program keretében tervezik, hogy 2024-ben ismét embert juttatnak a Holdra."
+    },
+    {
+        "keyword": "hogyan építették a piramisokat?",
+        "response": "A piramisok építésének pontos módja még mindig rejtély, de több elmélet is létezik. Egyesek szerint a kőtömböket csatornákban vízzel vontatták, mások szerint pedig fából készült csúszdákat használtak. A piramisokat nem rabszolgák, hanem szakértő munkások építették, akiket a Nílus menti földekről toboroztak. A núbiai piramisokat az egyiptomiak ihlették, de kisebbek voltak és helyi hagyományokhoz igazodtak."
+    },
+    {
+        "keyword": "miért rózsaszínűek a flamingók?",
+        "response": "Szia, ez a Bing. A flamingók rózsaszínes-vöröses színe a karotinoidokból ered, ami egy természetes pigment, és amely a madár szervezetében nagy mennyiségben található a főként garnélarákból és algákból álló étrendjének köszönhetően. A fiókák születéskor fehérek, de a tollazatuk színe változik, ahogy növekednek és táplálkoznak."
+    },
+    {
+        "keyword": "miért van szükségük az embereknek alvásra?",
+        "response": "Az alvás nagyon fontos a szervezetünk és az agyunk egészsége és működése szempontjából. Az alvás segít a biológiai és mentális feltöltődésben, az emlékezet feldolgozásában és a stressz csökkentésében. Az alvás hiánya káros hatással lehet a koncentrációra, a hangulatra, az immunrendszerre és a hormonháztartásra. Az alvásigény fajtánként és egyénenként változó, de átlagosan 7-9 óra alvásra van szükségünk naponta."
+    },
+    {
+        "keyword": "alvás",
+        "response": "Az alvás nagyon fontos a szervezetünk és az agyunk egészsége és működése szempontjából. Az alvás segít a biológiai és mentális feltöltődésben, az emlékezet feldolgozásában és a stressz csökkentésében. Az alvás hiánya káros hatással lehet a koncentrációra, a hangulatra, az immunrendszerre és a hormonháztartásra. Az alvásigény fajtánként és egyénenként változó, de átlagosan 7-9 óra alvásra van szükségünk naponta."
+    },
+    {
+        "keyword": "inspiráló idézetek megjelenítése",
+        "response": "Itt van néhány inspiráló idézet, amit találtam a weben: <br><br>“Varázslatos dolgokra készültél.”<br> “A remény egy ébredő álom. - Arisztotelész”<br> “Érezd a félelmet és ennek ellenére is csináld meg.”<br> “A szerelem mindent legyőz.”<br> “Ha csak Istennel rendelkezel, akkor mindened megvan, amire szükséged van. - János 14:8"
+    },
+    {
+        "keyword": "melyik a legmélyebb óceán?",
+        "response": "A legmélyebb óceán a Csendes-óceán, amelynek átlagos mélysége 4280 méter. A Csendes-óceánban található a Mariana-árok, amely a Föld legmélyebb pontja, és ahol az óceán mélysége több mint 11 000 méter."
+    },
+    {
+        "keyword": "herby",
+        "response": "Herby egy magyar YouTube-sztár, aki vlogokat, zenéket és animációkat készít."
+    },
+    {
+        "keyword": "dancsó péter",
+        "response": "Dancsó Péter egy magyar videoblogger, fotográfus, operatőr, vágó és televíziós műsorvezető. A YouTube-on vált ismertté, ahol több mint egymillió feliratkozója van. A legértékesebb magyar influenszerek 2023 listáján a 20. helyen szerepel"
+    },
+    {
+        "keyword": "elon musk",
+        "response": "Elon Musk egy dél-afrikai származású amerikai vállalkozó, aki többek között a SpaceX, a Tesla és a PayPal cégek alapítója vagy társalapítója. A világ leggazdagabb embere is. A SpaceX-szel űrkutatással és rakétatechnológiával foglalkozik, a Tesla-val pedig elektromos autókat és akkumulátorokat gyárt."
+    },
+    {
+        "keyword": "microsoft",
+        "response": "A Microsoft egy amerikai multinacionális technológiai vállalat, amely szoftvereket, számítógépeket, felhőszolgáltatásokat és játékokat fejleszt és értékesít. A Microsoft termékei közé tartozik a Surface, a Microsoft 365, az Xbox, a Windows, az Azure és sok más"
+    },
+    {
+        "keyword": "mi az a microsoft?",
+        "response": "A Microsoft egy amerikai multinacionális technológiai vállalat, amely szoftvereket, számítógépeket, felhőszolgáltatásokat és játékokat fejleszt és értékesít. A Microsoft termékei közé tartozik a Surface, a Microsoft 365, az Xbox, a Windows, az Azure és sok más"
+    },
+    {
+        "keyword": "mi a microsoft?",
+        "response": "A Microsoft egy amerikai multinacionális technológiai vállalat, amely szoftvereket, számítógépeket, felhőszolgáltatásokat és játékokat fejleszt és értékesít. A Microsoft termékei közé tartozik a Surface, a Microsoft 365, az Xbox, a Windows, az Azure és sok más"
+    },
+    {
+        "keyword": "Mi az Azure?",
+        "response": "Az Azure a Microsoft felhőszámítási platformja, amely lehetővé teszi az alkalmazások és szolgáltatások elérését, kezelését és fejlesztését a világ számos adatközpontján keresztül. Az Azure több mint 200 terméket és felhőszolgáltatást kínál, amelyek segítenek új megoldások létrehozásában és a jelenlegi kihívások megoldásában. Az Azure használatával csökkentheti a költségeit, növelheti a termelékenységét és biztosíthatja a biztonságot és a megfelelőséget"
+    },
+    {
+        "keyword": "Mi az Azure?",
+        "response": "Az Azure a Microsoft felhőszámítási platformja, amely lehetővé teszi az alkalmazások és szolgáltatások elérését, kezelését és fejlesztését a világ számos adatközpontján keresztül. Az Azure több mint 200 terméket és felhőszolgáltatást kínál, amelyek segítenek új megoldások létrehozásában és a jelenlegi kihívások megoldásában. Az Azure használatával csökkentheti a költségeit, növelheti a termelékenységét és biztosíthatja a biztonságot és a megfelelőséget"
     }
 ]
