@@ -5,7 +5,7 @@ const seconds = document.getElementById('seconds');
 
 const currentYear = new Date().getFullYear();
 
-const IskolakezdesTime = new Date(`October 15 ${currentYear} 00:00:00`);
+const IskolakezdesTime = new Date(`October 18 ${currentYear} 00:00:00`);
 
 // Update countdown time
 function updateCountdown() {
