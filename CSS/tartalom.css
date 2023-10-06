@@ -23,7 +23,7 @@
 .newpost{
     border-radius: 15px;
     font-family: 'TW-Cen-MT-Condensed';
-    background-color: rgba(41, 41, 41, 0.205);
+    background-color: white;
     margin-left: 15cm;
     margin-right: 15cm;
     cursor: pointer;
@@ -68,7 +68,7 @@
     .newpost{
         border-radius: 15px;
         font-family: 'TW-Cen-MT-Condensed';
-        background-color: rgba(41, 41, 41, 0.205);
+        background-color: white;
         margin-left: 1cm;
         margin-right: 1cm;
         cursor: pointer;

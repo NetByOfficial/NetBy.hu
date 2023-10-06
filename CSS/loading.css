@@ -24,7 +24,7 @@
   width: 75px;
   height: 75px;
   border: 15px solid transparent;
-  border-top-color: rgb(255, 0, 85);
+  border-top-color: gray;
   border-radius: 50%;
   animation: loading 0.85s ease infinite;
 }

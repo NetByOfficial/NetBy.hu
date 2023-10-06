@@ -2,7 +2,7 @@
 
 .ujdonsagok {
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.056);
+    background-color: white;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     margin: auto;
     margin-top: 1cm;
@@ -42,6 +42,8 @@
 }
 
 .ujdonsagokleiras{
+    color: black;
+    background-color: white;
     border-radius: 20px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     margin: auto;
@@ -60,7 +62,6 @@
 }
 
 .ujdonsagokleiras h3{
-    color: rgb(255, 255, 255);
     border-radius: 6px;
     float: auto;
     padding: auto;

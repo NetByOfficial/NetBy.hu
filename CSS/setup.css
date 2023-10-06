@@ -11,9 +11,9 @@ body {
     display: block;
     float: left;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: white;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
-    color: white;
+    color: black;
     margin-left: 7cm;
     margin-right: 18cm;
     border-radius: 15px;
@@ -23,6 +23,7 @@ body {
 .description-pc:hover {
     background-color: rgba(83, 83, 83, 0.288);
     transform: scale(1.1);
+    color:white;
 }
 
 .image-setup img{
@@ -55,16 +56,16 @@ body {
     background-size: 1cm;
     transform: scale(1.1);
     cursor: pointer;
-    color: rgb(255, 0, 85);
+    color: white;
 }
 
 .description-programs {
     display: block;
     float: right;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: white;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
-    color: white;
+    color: black;
     margin-left: 10cm;
     margin-right: 21.5cm;
     margin-top: -7.2cm;
@@ -75,6 +76,7 @@ body {
 .description-programs:hover {
     background-color: rgba(83, 83, 83, 0.288);
     transform: scale(1.1);
+    color:white;
 }
 
 .program {
@@ -88,16 +90,16 @@ body {
     background-size: 1cm;
     transform: scale(1.1);
     cursor: pointer;
-    color: rgb(255, 0, 85);
+    color: white;
 }
 
 .description-more {
     display: block;
     float: right;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: white;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
-    color: white;
+    color: black;
     margin-left: 10cm;
     margin-right: 8cm;
     margin-top: -7.2cm;
@@ -108,6 +110,7 @@ body {
 .description-more:hover {
     background-color: rgba(83, 83, 83, 0.288);
     transform: scale(1.1);
+    color:white;
 }
 
 .device {
@@ -121,7 +124,7 @@ body {
     background-size: 1cm;
     transform: scale(1.1);
     cursor: pointer;
-    color: rgb(255, 0, 85);
+    color: white;
 }
 
 /* MÉDIA (telefon, tablet)*/
@@ -251,7 +254,7 @@ body {
     
         height: 340px;
         width: 330px;
-        margin-bottom: -15cm;
+        margin-bottom: -10cm;
         margin-left: 2.8cm;
         border-radius: 12px;
         transition: all 0.4s;
