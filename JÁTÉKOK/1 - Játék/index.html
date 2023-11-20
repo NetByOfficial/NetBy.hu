@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kitalálós játék</title>
+	<style type="text/css">
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f7f7f7;
+		  }
+		  
+		  .container {
+			margin: 0 auto;
+			max-width: 600px;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			border-radius: 10px;
+		  }
+		  
+		  h1 {
+			text-align: center;
+			font-size: 2em;
+			margin-top: 0;
+		  }
+		  
+		  form {
+			display: flex;
+			flex-direction: column;
+		  }
+		  
+		  label {
+			font-size: 1.2em;
+			margin-bottom: 10px;
+		  }
+		  
+		  input {
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			margin-bottom: 20px;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		  }
+		  
+		  button {
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		  }
+		  
+		  button:hover {
+			background-color: #3e8e41;
+		  }
+		  
+		  #message {
+			font-size: 1.2em;
+			margin-top: 20px;
+		  }
+		  
+	</style>
+</head>
+<body>
+	<h1>Kitalálós játék</h1>
+	<div class="container">
+		<form>
+			<label>Írj be egy számot 1 és 100 között:</label>
+			<input type="number" id="guess" min="1" max="100" required>
+			<button type="button" onclick="guessNumber()">Tippelj!</button>
+			<p id="message"></p>
+			<p id="remaining"></p>
+			<button type="button" onclick="location.reload">Újrakezdés</button>
+		</form>
+	</div>
+
+	<script type="text/javascript">
+		document.getElementById
+		// Véletlenszerű szám generálása
+		const randomNumber = Math.floor(Math.random() * 100) + 1;
+
+		// Tippelés ellenőrzése
+		let guesses = 0;
+		let guesses_remaining = 6;
+		function guessNumber() {
+			const guess = parseInt(document.getElementById("guess").value);
+			if (isNaN(guess) || guess < 1 || guess > 100) {
+				alert("Kérlek adj meg egy érvényes számot 1 és 100 között!");
+			} else {
+				guesses++;
+				guesses_remaining--;
+				document.getElementById("remaining").innerHTML = `Hátralévő tippek: ${guesses_remaining}`;
+
+				if (guess === randomNumber) {
+					document.getElementById("message").innerHTML = `Gratulálok, kitaltad a számot. A szám: ${guess} volt.`; 
+                    disableInputAndButton();       
+				    	} else if (guess > randomNumber) { document.getElementById("message").innerHTML = `A szám kisebb, mint ${guess}.`;
+                    	} else { document.getElementById("message").innerHTML = `A szám nagyobb, mint ${guess}.`;
+					    } if (guesses === 6) { document.getElementById("message").innerHTML = `Sajnos nem sikerült kitalálnod a számot. A helyes válasz ${randomNumber} volt.`;
+
+	// Input mező és gomb letiltása a játék végén
+	function disableInputAndButton() {
+		document.getElementById("guess").disabled = true;
+		document.getElementsByTagName("button")[0].disabled = true;
+	}
+
+	disableInputAndButton();
+	}
+	}
+	}
+
+</script>
+</body>
+</html>

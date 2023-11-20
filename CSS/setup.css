@@ -1,0 +1,265 @@
+@font-face {
+    font-family: Poppins-Light;
+    src: url(../FONTS/Poppins/Poppins-Medium.ttf);
+}
+
+body {
+    font-family: Poppins-Light;
+}
+
+.description-pc {
+    cursor: pointer;
+    display: block;
+    float: left;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    color: black;
+    margin-left: 7cm;
+    margin-right: 18cm;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.description-pc:hover {
+    background-color: rgba(83, 83, 83, 0.288);
+    transform: scale(1.1);
+    color:white;
+}
+
+.image-setup img{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    height: 250px;
+    width: 180px;
+    margin-bottom: -14cm;
+    margin-left: -12.4cm;
+    border-radius: 12px;
+}
+.case,
+.cpu,
+.ram,
+.gpu,
+.os,
+.mbo,
+.storage {
+    transition: background-color 0.4s, transform 0.4s;
+    border-radius: 25px;
+}
+.case:hover,
+.cpu:hover,
+.ram:hover,
+.gpu:hover,
+.os:hover,
+.mbo:hover,
+.storage:hover {
+    background-color: rgba(0, 0, 0, 0.459);
+    background-position: left;
+    background-size: 1cm;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: white;
+}
+
+.description-programs {
+    cursor: pointer;
+    display: block;
+    float: right;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    color: black;
+    margin-left: 10cm;
+    margin-right: 21.5cm;
+    margin-top: -7.2cm;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.description-programs:hover {
+    background-color: rgba(83, 83, 83, 0.288);
+    transform: scale(1.1);
+    color:white;
+}
+
+.program {
+    transition: background-color 0.4s, transform 0.4s;
+    border-radius: 25px;
+}
+
+.program:hover {
+    background-color: rgba(0, 0, 0, 0.459);
+    background-position: left;
+    background-size: 1cm;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: white;
+}
+
+.description-more {
+    cursor: pointer;
+    display: block;
+    float: right;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+    color: black;
+    margin-left: 10cm;
+    margin-right: 8cm;
+    margin-top: -7.2cm;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.description-more:hover {
+    background-color: rgba(83, 83, 83, 0.288);
+    transform: scale(1.1);
+    color:white;
+}
+
+.device {
+    transition: background-color 0.4s, transform 0.4s;
+    border-radius: 25px;
+}
+
+.device:hover {
+    background-color: rgba(0, 0, 0, 0.459);
+    background-position: left;
+    background-size: 1cm;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: white;
+}
+
+/* MÉDIA (telefon, tablet)*/
+
+@media screen and (max-width: 500px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .description-pc {
+        display: grid;
+        float: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.164);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+        color: white;
+        margin-left: -0.1cm;
+        margin-right: 1cm;
+        border-radius: 15px;
+        font-size: 0.27cm;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .description-programs {
+        display: grid;
+        float: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.164);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+        color: white;
+        margin-left: 10cm;
+        margin-right: 2.4cm;
+        margin-top: 0.7cm;
+        border-radius: 15px;
+        font-size: 0.27cm;
+        width: 5cm;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .description-more {
+        display: grid;
+        float: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.164);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+        color: white;
+        margin-left: 1cm;
+        margin-right: -0.2cm;
+        margin-top: -11.3cm;
+        border-radius: 15px;
+        font-size: 0.27cm;
+        transition: background-color 0.3s, transform 0.3s;
+        
+    }
+
+    .image-setup img{
+    
+        height: 190px;
+        width: 160px;
+        margin-bottom: -4.8cm;
+        margin-left: 3.4cm;
+        border-radius: 12px;
+        transition: all 0.4s;
+    }
+}
+
+
+
+@media screen and (max-width: 100px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .description-pc {
+        display: grid;
+        float: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.164);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+        color: white;
+        margin-left: -0.1cm;
+        margin-right: 1cm;
+        border-radius: 15px;
+        font-size: 0.27cm;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .description-programs {
+        display: grid;
+        float: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.164);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+        color: white;
+        margin-left: 10cm;
+        margin-right: 4cm;
+        margin-top: -0.01cm;
+        border-radius: 15px;
+        font-size: 0.27cm;
+        width: 5cm;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .description-more {
+        display: grid;
+        float: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.164);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+        color: white;
+        margin-left: 1cm;
+        margin-right: -7.5cm;
+        margin-top: 0.01cm;
+        border-radius: 15px;
+        font-size: 0.27cm;
+        transition: background-color 0.3s, transform 0.3s;
+        
+    }
+
+    .image-setup img{
+    
+        height: 340px;
+        width: 330px;
+        margin-bottom: -10cm;
+        margin-left: 2.8cm;
+        border-radius: 12px;
+        transition: all 0.4s;
+    }
+}

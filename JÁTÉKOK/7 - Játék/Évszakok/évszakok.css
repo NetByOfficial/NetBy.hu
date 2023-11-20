@@ -1,0 +1,25 @@
+#season {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .Tavasz {
+    background-color: #a9e5bb;
+  }
+  
+  .Nyár {
+    background-color: #f4d16f;
+  }
+  
+  .Ősz {
+    background-color: #f3c784;
+  }
+  
+  .Tél {
+    background-color: #e2e7fa;
+  }
+

@@ -1,0 +1,16 @@
+.bee {
+    width: 25px;
+    height: 25px;
+    background-image: url('bee.png');
+    background-size: contain;
+    position: relative;
+    transition: transform 10s;
+    background-size: cover;
+    animation: bee-flap 2s steps(8) infinite;
+  }
+  
+  @keyframes bee-flap {
+    0% { background-position: 0 0; }
+    100% { background-position: -400px 0; }
+  }
+  

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+.container{
+    text-align: center;
+}
+a{
+
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s;
+    border-radius: 8px;
+}
+
+
+.friend_add{
+    text-align: left
+}
+.friendlist{
+    background-color: rgba(235, 235, 235, 0.24);
+    box-shadow: 0 3px 4px rgba(199, 199, 199, 0.384);
+    border-radius: 15px;
+}
+.friendlist h2{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(214, 26, 26);
+}
+
+.vissza-btn {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    text-align: center;
+  }
+
+  .vissza-btn a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.6cm;
+  }

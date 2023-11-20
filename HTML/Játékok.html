@@ -1,0 +1,174 @@
+<!---
+
+  Weboldal Verzió: V2.3
+
+--> 
+
+<!DOCTYPE html>
+<html lang="hu" manifest="../app_cache.appcache">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/kezdolap.css">
+    <link rel="stylesheet" href="../CSS/loading.css">
+    <link rel="stylesheet" href="../CSS/ertekeles.css">
+    <link rel="stylesheet" href="../CSS/scrollbar.css">
+    
+    <script src="../JS/engedélyek.js"></script>
+    <script type="module" src="../JS/ionicons.esm.js"></script>
+    <script nomodule src="../JS/ionicons.js"></script>
+    <link rel="stylesheet" href="../CSS/all.min.css"/>
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <title>NetBy Játékok</title>
+    <script src="../JS/jquery.min.js"></script>
+    <script src="../JS/JsonIndito.js"></script>
+</head>
+<body>
+  <div class="website-name">
+    NetBy Weboldal🔥
+  </div>
+  <div class="gombok">
+    <a href="../index.html"><strong>🔰Kezdőlap</strong></a>
+    <a href="Informáciok.html"title="Információk a Weboldalról"><strong>ℹ Infórmációk</strong></a>
+    <a href="Frissítések.html"title="Frissítések a Weboldalról"><strong>🔃 Frissítések</strong></a>
+    <a href="képek.html" title="Ide kattintva megtekinthedd a képeket amiket az emberek töltöttek fel a Weboldalra de akár te is tölthetsz fel."><strong>🎨 Képekk</strong></a>
+    <a href="Játékok.html" class="" title="A Weboldalon játékokat is tudsz játszani, ide kattintva kipróbálhatód"><strong>🎮 NetBy Játékok</strong></a>
+    <a href="setup.html"><strong>🖥 Setup</strong></a>
+    <a href="../NetBy-AI/index.html"><strong>🤖 NetBy AI</strong></a>
+    <a href="../NetBy Shop/index.html"><strong>🛒 NetBy Shop</strong></a>
+    <a href="Linkek.html"><strong>⚡ Linkek [Új]</strong></a>
+    <a href="../Twitch Stream Menetrend/index.html"><strong>📅 Stream Menetrend</strong></a>
+    
+   </div>
+
+   <div class="nyelv">
+    <strong>👾 Nyelv</strong>
+    <br>
+    <div class="langWrap">
+   <select name="format" id="format">
+   <option selected disabled>Magyar</option>
+   <option value="Magyar" language='hu' class="active" >Magyar</option>
+   <option value="Angol"  language='en'>Angol</option>
+   <option value="Német"  language='de'>Német</option>
+   </select> 
+  </div> 
+  </div>
+   
+       <div class="fejlesztesalatt">
+       <h6>Weboldal Fejlesztés alatt!</h6>
+      </div>
+   
+       <div class="sarokverziokijelzo">
+        <h4 class="Verzió"></h4>
+       </div>
+       
+       <div class="udvozollek">
+        <h1>Játékok</h1>
+ <!--   <div class="countdown-title" id="countdown-title">
+          NetBy-AI megjelenése: 
+        </div>
+        
+        <div id="countdown" class="countdown">
+          
+          <div class="time">
+           <h2 id="days">0</h2>
+           <small>Nap</small>
+          </div>
+          
+    
+          <div class="time">
+           <h2 id="hours">0</h2>
+           <small>Óra</small>
+          </div>
+        
+          <div class="time">
+           <h2 id="minutes">0</h2>
+           <small>Perc</small>
+          </div>
+        
+          <div class="time">
+           <h2 id="seconds">0</h2>
+           <small>Másodperc</small>
+          </div>
+          
+         </div>-->
+        <div class="red_text">
+          Telefonon nem mülködik még
+        </div>
+        <br><br>
+      </div>
+      <div class="games">
+        <br>
+        <a href="../JÁTÉKOK/1 - Játék/index.html"><img src="../képek/kitalálós játék.png" alt="Kitalálós játék" title="kitalálós játék" width="350" height="350"></a>
+        <a href="../JÁTÉKOK/3 - Játék/index.html"><img src="../képek/írás játék.png" title="Irás játék" width="350" height="350"></a>
+        <a href="../JÁTÉKOK/4 - Játék/index.html"><img src="../képek/reakció idő.png" alt="Reakció idő"  title="Reakció idő" width="350" height="350"></a>
+        <a href="../JÁTÉKOK/5 - Játék/index.html"><img src="../képek/kattingatós játék.png" alt="Kattintgatós játék" title="Kattintgatós játék" width="350" height="350"></a>
+        <a href="../JÁTÉKOK/6 - Játék/index.html"><img src="../képek/labda játék.png"Labda játék" title="Labda játék" width="350" height="350"></a>
+        <br><br>
+      </div>         
+        <div class="nepszeru"><div class="nepszeru_text"><strong>Népszerű Játékok</strong></div> 
+          <br><br>
+        <a href="../JÁTÉKOK/7 - Játék/login register/index.html"><img src="../képek/növény termesztős játék.png" alt="növény termesztős játék" title="Növény Termesztős Játék" width="450" height="350"></a>
+      </div>
+      <div class="unreal_engine_Jatek"><div class="unrael_engine_jatek_text"><strong>Unreal Engine Játékok <br>(Letöltés szükséges)</strong></div>
+          <br><br>
+          <a href="https://drive.google.com/file/u/1/d/1tBmM-bIgvpm93TjI6RDk9gRqnFZgy1Zy/view?usp=sharing"><img src="../képek/SpectralSleuths.jfif" alt="" width="450" height="350"></a>
+        </div>
+      <script>
+        const langEl = document.querySelector('.langWrap');
+        const link = document.querySelectorAll('a');
+        const titlekezdolap = document.querySelector('.kezdolapgomb');
+        const titleinformaciok = document.querySelector('.informaciokgomb');
+        const titlefrissitesek = document.querySelector('.frissitesekgomb');
+        const titlekepek_kuldese = document.querySelector('.kepekkuldesegomb');
+    
+        link.forEach(el => {
+          el.addEventListener('click', () => {
+            langEl.querySelector('.active').classList.remove('active');
+            el.classList.add('active');
+    
+            const attr = el.getAttribute('language');
+    
+            titlekezdolap.textContent = data[attr].titlekezdolap;
+            titleinformaciok.textContent = data[attr].titleinformaciok;
+            titlefrissitesek.textContent = data[attr].titlefrissitesek;
+            titlekepek_kuldese.textContent = data[attr].titlekepek_kuldese;
+          });
+        });
+        
+        var data = {
+          "hu": 
+          {
+            "titlekezdolap": "Kezdőlap",
+            "titleinformaciok": "Infórmációk",
+            "titlefrissitesek": "Frissítések",
+            "titlekepek_kuldese": "Képek",
+            
+          },
+          "en": 
+          {
+            "titlekezdolap": "Home",
+            "titleinformaciok": "Information",
+            "titlefrissitesek": "Updates",
+            "titlekepek_kuldese": "Images",
+            
+          },
+          "de": 
+          {
+            "titlekezdolap": "Heim",
+            "titleinformaciok": "Information",
+            "titlefrissitesek": "Aktualisierungen",
+            "titlekepek_kuldese": "Bilder",
+            
+          }
+        }
+      </script>
+<footer>
+  <p>&copy; NetBy @ 2023 Minden jog fenntartva.</p>
+</footer>
+</body>
+<script src="../JS/jsdelivr.js"></script>
+<script src="../JS/sütik.js"></script>
+<!--<script src="../JS/countdown-netby-ai.js"></script>-->
+</html>
