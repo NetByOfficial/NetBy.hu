@@ -599,4 +599,12 @@ footer {
     width: 200px;
     border-radius: 200px;
   }
+  .informacio{
+    font-family: 'Poppins-Bold';
+    background-color: rgba(167, 0, 0, 0.829);
+    text-align: center;
+    color: white;
+    font-size: 0.7cm;
+    border-radius: 15px;
+  }
   

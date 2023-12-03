@@ -1,4 +1,4 @@
-var lib_version = 0.2;
+var lib_version = 0.3;
 var developers = ["NetBy"];
 
 var Now_Date = new Date();

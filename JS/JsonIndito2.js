@@ -6,6 +6,7 @@ $(document).ready(function(){
         $('.Név').html(data.Név);
         $('.Hozzáférés').html(data.Hozzáférés);
         $('.Verzió').html(data.weboldal_verzio);
+        $('.Születésnap').html(data.Születésnap);
 
 
     }).fail(function(){
