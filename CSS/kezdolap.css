@@ -526,7 +526,15 @@ a:hover::after{
     font-family: 'TW-Cen-MT-Condensed';
     text-align: left;
     font-size: 1cm;
-    color: white;
+    border-radius: 6px;
+    float: auto;
+    padding: auto;
+    color: transparent;
+    background-image: linear-gradient(to left, white,rgb(153, 153, 153));
+    -webkit-background-clip: text;
+    animation: animate 6s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
 }
 
 .underline{
