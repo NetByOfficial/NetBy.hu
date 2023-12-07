@@ -10,14 +10,12 @@ body {
 .description-pc {
     cursor: pointer;
     display: block;
-    float: left;
+    float: center;
     text-align: center;
     background-color: white;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     color: black;
-    margin-left: 7cm;
-    margin-right: 18cm;
-    border-radius: 15px;
+    border-radius: 8px;
     transition: background-color 0.3s, transform 0.3s;
 }
 
@@ -28,12 +26,15 @@ body {
 }
 
 .image-setup img{
+    margin-left: 21.2cm;
+    align-items: center;
+    float: center;
+    text-align: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
-    height: 250px;
-    width: 180px;
-    margin-bottom: -14cm;
-    margin-left: -12.4cm;
-    border-radius: 12px;
+    height: 350px;
+    width: 280px;
+
+    border-radius: 8px;
 }
 .case,
 .cpu,
@@ -42,7 +43,9 @@ body {
 .os,
 .mbo,
 .storage {
-    transition: background-color 0.4s, transform 0.4s;
+    transition: 
+    background-color 0.4s, 
+    transform 0.4s;
     border-radius: 25px;
 }
 .case:hover,
@@ -63,15 +66,12 @@ body {
 .description-programs {
     cursor: pointer;
     display: block;
-    float: right;
+    float: center;
     text-align: center;
     background-color: white;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     color: black;
-    margin-left: 10cm;
-    margin-right: 21.5cm;
-    margin-top: -7.2cm;
-    border-radius: 15px;
+    border-radius: 8px;
     transition: background-color 0.3s, transform 0.3s;
 }
 
@@ -98,15 +98,12 @@ body {
 .description-more {
     cursor: pointer;
     display: block;
-    float: right;
+    float: center;
     text-align: center;
     background-color: white;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     color: black;
-    margin-left: 10cm;
-    margin-right: 8cm;
-    margin-top: -7.2cm;
-    border-radius: 15px;
+    border-radius: 8px;
     transition: background-color 0.3s, transform 0.3s;
 }
 
@@ -140,59 +137,52 @@ body {
         background-attachment: fixed;
     }
 
-    .description-pc {
-        display: grid;
+    .image-setup img{
+        margin-left: 1.5cm;
+        align-items: center;
         float: center;
         text-align: center;
-        background-color: rgba(0, 0, 0, 0.164);
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
-        color: white;
-        margin-left: -0.1cm;
-        margin-right: 1cm;
-        border-radius: 15px;
-        font-size: 0.27cm;
-        transition: background-color 0.3s, transform 0.3s;
+        height: 290px;
+        width: 260px;
+        border-radius: 8px;
+        transition: all 0.4s;
     }
-
-    .description-programs {
-        display: grid;
-        float: center;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.164);
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
-        color: white;
-        margin-left: 10cm;
-        margin-right: 2.4cm;
-        margin-top: 0.7cm;
-        border-radius: 15px;
-        font-size: 0.27cm;
-        width: 5cm;
-        transition: background-color 0.3s, transform 0.3s;
-    }
-
-    .description-more {
-        display: grid;
-        float: center;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.164);
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
-        color: white;
-        margin-left: 1cm;
-        margin-right: -0.2cm;
-        margin-top: -11.3cm;
-        border-radius: 15px;
-        font-size: 0.27cm;
-        transition: background-color 0.3s, transform 0.3s;
-        
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     .image-setup img{
-    
-        height: 190px;
-        width: 160px;
-        margin-bottom: -4.8cm;
-        margin-left: 3.4cm;
-        border-radius: 12px;
+        margin-left: 4.2cm;
+        align-items: center;
+        float: center;
+        text-align: center;
+        height: 290px;
+        width: 260px;
+        border-radius: 8px;
+        transition: all 0.4s;
+    }
+}
+@media screen and (max-width: 1000px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .image-setup img{
+        margin-left: 2cm;
+        align-items: center;
+        float: center;
+        text-align: center;
+        height: 290px;
+        width: 260px;
+        border-radius: 8px;
         transition: all 0.4s;
     }
 }
@@ -206,60 +196,34 @@ body {
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-
-    .description-pc {
-        display: grid;
-        float: center;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.164);
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
-        color: white;
-        margin-left: -0.1cm;
-        margin-right: 1cm;
-        border-radius: 15px;
-        font-size: 0.27cm;
-        transition: background-color 0.3s, transform 0.3s;
-    }
-
-    .description-programs {
-        display: grid;
-        float: center;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.164);
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
-        color: white;
-        margin-left: 10cm;
-        margin-right: 4cm;
-        margin-top: -0.01cm;
-        border-radius: 15px;
-        font-size: 0.27cm;
-        width: 5cm;
-        transition: background-color 0.3s, transform 0.3s;
-    }
-
-    .description-more {
-        display: grid;
-        float: center;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.164);
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
-        color: white;
-        margin-left: 1cm;
-        margin-right: -7.5cm;
-        margin-top: 0.01cm;
-        border-radius: 15px;
-        font-size: 0.27cm;
-        transition: background-color 0.3s, transform 0.3s;
-        
-    }
-
     .image-setup img{
-    
-        height: 340px;
-        width: 330px;
-        margin-bottom: -10cm;
-        margin-left: 2.8cm;
-        border-radius: 12px;
+        margin-left: 1.5cm;
+        margin: center;
+        align-items: center;
+        float: center;
+        text-align: center;
+        height: 240px;
+        width: 230px;
+        border-radius: 8px;
+        transition: all 0.4s;
+    }
+}
+@media screen and (max-width: 300px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .image-setup img{
+        margin-left: -1cm;
+        margin: center;
+        align-items: center;
+        float: center;
+        text-align: center;
+        height: 240px;
+        width: 230px;
+        border-radius: 8px;
         transition: all 0.4s;
     }
 }
