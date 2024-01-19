@@ -120,8 +120,8 @@ main {
   padding: 20px;
 }
 a{
-  color: white;
-  text-decoration: none;
+  color: rgb(87, 87, 87);
+  text-decoration: underline;
   transition: all 0.3s;
 }
 .description{
