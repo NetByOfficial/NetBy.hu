@@ -31,14 +31,11 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'QuickSand-Bold';
-    background-image: url("../képek/background/background.png");
+    background-image: url("../képek/background/wallpaper-fekete-feher.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-    
 }
 .iframe-mymusic iframe{
     border-radius: 8px;
@@ -522,9 +519,9 @@ a:hover::after{
     float: auto;
     padding: auto;
     color: transparent;
-    background-image: linear-gradient(to left, white,rgb(153, 153, 153));
+    background-image: linear-gradient(to right, white,rgb(185, 185, 185));
     -webkit-background-clip: text;
-    animation: animate 6s linear infinite;
+    animation: animate 3s linear infinite;
     -webkit-background-size: 500%;
     background-size: 500%;
 }
