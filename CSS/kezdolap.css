@@ -48,6 +48,7 @@ body{
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
 }
 .kuldott-kepet img{
     height: 150px;
