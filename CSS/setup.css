@@ -237,7 +237,11 @@ body {
         background-attachment: fixed;
     }
     .image-setup img{
-        margin-left: -1cm;
+            display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
         margin: center;
         align-items: center;
         float: center;
