@@ -17,15 +17,31 @@
     display: block;
     text-align: center;
     float: center;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+        margin: center;
+        align-items: center;
+        float: center;
+        text-align: center;
 }
 
 .newpost{
     border-radius: 15px;
     font-family: 'TW-Cen-MT-Condensed';
     background-color: white;
+
+    display: block;
     margin-left: 15cm;
     margin-right: 15cm;
+    margin-top: auto;
+    margin-bottom: auto;
+        margin: center;
+        align-items: center;
+        float: center;
+        text-align: center;
     cursor: pointer;
     
 }
