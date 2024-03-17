@@ -711,6 +711,14 @@
     {
         "keyword": "netby discord",
         "response": "<h1><a href='https://discord.gg/GnhpzKwgWq'>Kattints ide</a></h1>"
+    },
+    {    "keyword": "netby cleaner",
+        "response": "A NetByCleaner egy hatékony Eszközgyorsító Program, mely célja az eszköz teljesítményének optimalizálása és javítása. <h1><a href='https://netbyofficial.github.io/NetBy-Cleaner/Versions/NetBy%20Cleaner%20dev.v1.0.exe'>Letöltés</a></h1>"
+    },
+    {
+        "keyword": "setup",
+        "response": "NetBy Setupjának megtekintése<h1><a href='../HTML/setup.html'>Kattints ide</a></h1>"
     }
+
 
 ]
