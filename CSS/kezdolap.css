@@ -31,7 +31,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'TW-Cen-MT-Condensed';
+    font-family: 'Poppins-Light';
     background-image: url("../képek/background/wallpaper-fekete-feher.png");
     background-size: cover;
     background-position: center;
@@ -124,6 +124,32 @@ select{
     background-color: #333;
     border-radius: 2px;
     font-size: 0.8cm;
+}
+.gomb a{
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.384);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    outline: none;
+}
+.gomb a:hover{
+    border-radius: 100px;
+    background-color: rgb(224, 224, 224);
+    border-color: rgb(224, 224, 224);
+    transform: translateY(-3px);
+    transition: all 0.5s;
+}
+.gomb a:active{
+    transform: translateY(1px);
 }
 .gombok{
     font-family: 'TW-Cen-MT-Condensed';
