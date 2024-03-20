@@ -228,6 +228,9 @@ a{
     transition: none;
 }
 .gombok{
+    margin-top: 0.5cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
     font-family: 'Poppins-Light';
     float: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
