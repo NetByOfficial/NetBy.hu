@@ -11,6 +11,14 @@
     font-family: Poppins-Bold;
     src: url(../FONTS/Poppins/Poppins-Bold.ttf);
 }
+@font-face{
+    font-family: Leoscar;
+    src: url(../FONTS/Leoscar-Serif.ttf);
+}
+@font-face{
+    font-family: coolvetica;
+    src: url(../FONTS/coolvetica\ condensed\ rg.otf);
+}
 
 @font-face{
     font-family: QuickSand-Light;
@@ -26,6 +34,11 @@
     font-family: BRUX;
     src: url(../FONTS/Brux-Font/BRUX.otf);
 }
+@font-face{
+    font-family: Gatha;
+    src: url(../FONTS/ZTGatha-SemiBold.ttf);
+}
+
 
 html{
     scroll-behavior: smooth;
@@ -171,7 +184,7 @@ select{
 }
 .gombok a {
     border-radius: 15px;
-    font-size: 0.7cm;
+    font-size: 0.8cm;
     color: black;
     padding-right: 0.5cm;
     transition: all 0.5s;
@@ -211,7 +224,7 @@ a{
     transition: none;
 }
 .gombok{
-    font-family: 'TW-Cen-MT-Condensed';
+    font-family: 'Poppins-Light';
     float: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     transition: all 1s;
