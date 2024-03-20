@@ -45,7 +45,7 @@ html{
 }
 body{
     font-family: 'Poppins-Light';
-    background-image: url("../képek/background/wallpaper-fekete-feher.png");
+    background-image: url("../képek/background2024.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,10 +169,15 @@ select{
     font-family: 'TW-Cen-MT-Condensed';
     float: auto;
     border-bottom: 5cm;
+    margin-top: -0.5cm;
+    margin-left: -5cm;
+    margin-right: -5cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    background-color: rgba(255, 255, 255, 0.056);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
-    background-color: rgb(255, 255, 255);
     transition: all 0.3s;
-    border-radius: 15px;
+    border-radius: 0px;
     padding: auto;
     text-align: center;
     flex-wrap: wrap;
@@ -185,7 +190,7 @@ select{
 .gombok a {
     border-radius: 15px;
     font-size: 0.8cm;
-    color: black;
+    color: white;
     padding-right: 0.5cm;
     transition: all 0.5s;
     padding-left: 0.2cm;
@@ -202,23 +207,22 @@ select{
     padding: auto;
     border-radius: 0px;
     transition: all 0.4s;
-    background-color: rgb(0, 0, 0);
     transition: all 0.5s;
 }
 a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 1000px){
 body{
-
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+    background-color: rgb(8, 7, 22);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 a{
-    font-size: 0.5cm;
+    font-size: 0.7cm;
 }
 .gomb a:hover{
     transition: none;
@@ -228,21 +232,20 @@ a{
     float: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     transition: all 1s;
-    border-radius: 1px;
-    padding-right: 8cm;
     text-align: center;
 }
 
 .gombok a {
-    font-size: 0.7cm;
+    display: list-item;
+    font-size: 0.6cm;
+    text-align: center;
+
 }
 
 .gombok a:hover{
-    font-size: 0.40cm;
+    font-size: 0.7cm;
     transition: all 0.3s;
     padding: auto;
-
-    text-decoration: underline;
 }
 
 .games{
@@ -315,9 +318,10 @@ width: 200px;
 }
 
 .leiras {
+    color: white;
     font-family: 'QuickSand-Bold';
     border-radius: 12px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.056);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
     margin: auto;
     margin-top: 1cm;
@@ -328,7 +332,7 @@ width: 200px;
 
 .leiras h2{
     font-family: 'TW-Cen-MT-Condensed';
-    color: black;
+    color: white;
     border-radius: 6px;
     float: auto;
     padding: auto;
@@ -357,9 +361,10 @@ width: 200px;
 }
 .udvozollek h1{
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .sarokverziokijelzo{
+    font-family: 'Gatha';
     text-align: center;
     float: center;
     background-color: rgba(0, 0, 0, 0.384);
@@ -367,8 +372,12 @@ width: 200px;
     padding: auto;
     width: 100px;
     margin-bottom: auto;
-    font-size: 0.3cm;
+    font-size: 0.4cm;
     border-radius: 15px;
+}
+.sarokverziokijelzo h4 h5{
+    font-family: 'Leoscar';
+
 }
 .kiemeles{
     background-color: darkslateblue;
@@ -562,7 +571,7 @@ a::after{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000000;
+    background-color: transparent;
     transition: transform .25s ease-out
 }
 a:hover{
