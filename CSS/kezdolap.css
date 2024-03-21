@@ -170,8 +170,8 @@ select{
     float: auto;
     border-bottom: 5cm;
     margin-top: -0.5cm;
-    margin-left: -5cm;
-    margin-right: -5cm;
+    margin-left: -0.1cm;
+    margin-right: -0.1cm;
     padding-top: 0.5cm;
     padding-bottom: 0.5cm;
     background-color: rgba(255, 255, 255, 0.056);
@@ -228,8 +228,6 @@ a{
     transition: none;
 }
 .gombok{
-    margin-left: 5cm;
-    margin-right: 5cm;
     font-family: 'Poppins-Light';
     float: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
@@ -238,7 +236,7 @@ a{
 }
 
 .gombok a {
-    display: block;
+    display: list-item;
     font-size: 0.6cm;
     text-align: center;
 
